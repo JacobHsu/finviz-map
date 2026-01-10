@@ -127,6 +127,62 @@ def capture_finviz_canvas(map_type="sec", output_path="spy.png"):
         driver.execute_script("arguments[0].scrollIntoView(true);", canvas)
         time.sleep(2)
 
+        # Clear any hover effects and tooltips
+        print("🧹 Clearing hover effects and tooltips...")
+
+        # Aggressively hide all overlay elements with JavaScript
+        driver.execute_script("""
+            // Remove all absolute/fixed positioned elements that might be tooltips
+            const allElements = document.querySelectorAll('*');
+            allElements.forEach(el => {
+                const style = window.getComputedStyle(el);
+                const position = style.position;
+                const zIndex = parseInt(style.zIndex) || 0;
+
+                // Hide high z-index elements (likely popups/tooltips)
+                if (zIndex > 100) {
+                    el.style.display = 'none';
+                }
+
+                // Hide elements with tooltip-like properties
+                if (position === 'absolute' || position === 'fixed') {
+                    const classes = el.className.toString().toLowerCase();
+                    const id = el.id.toString().toLowerCase();
+                    if (classes.includes('tooltip') || classes.includes('popup') ||
+                        classes.includes('info') || classes.includes('detail') ||
+                        id.includes('tooltip') || id.includes('popup')) {
+                        el.style.display = 'none';
+                    }
+                }
+            });
+
+            // Also try to trigger mouseout events on canvas
+            const canvas = document.querySelector('canvas');
+            if (canvas) {
+                const event = new MouseEvent('mouseout', {
+                    view: window,
+                    bubbles: true,
+                    cancelable: true
+                });
+                canvas.dispatchEvent(event);
+            }
+        """)
+        time.sleep(2)
+
+        # Move mouse completely off the canvas area
+        from selenium.webdriver.common.action_chains import ActionChains
+        actions = ActionChains(driver)
+        # Move to page header (far from canvas)
+        try:
+            header = driver.find_element(By.TAG_NAME, "header")
+            actions.move_to_element(header).perform()
+        except:
+            # If no header, move to top-left
+            body = driver.find_element(By.TAG_NAME, "body")
+            actions.move_to_element_with_offset(body, 5, 5).perform()
+
+        time.sleep(2)
+
         # Get canvas screenshot
         print("📸 Capturing canvas screenshot...")
         
