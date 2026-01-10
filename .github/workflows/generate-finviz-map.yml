@@ -1,0 +1,58 @@
+name: Generate Finviz Market Map
+
+on:
+  # 每個交易日美國股市收盤後執行 (美東時間 4:30 PM = UTC 9:30 PM)
+  schedule:
+    - cron: '30 21 * * 1-5'  # 週一到週五 UTC 9:30 PM (美東 4:30 PM)
+  
+  # 也允許手動觸發
+  workflow_dispatch:
+
+jobs:
+  generate-map:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install Chrome
+        run: |
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+      
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install undetected-chromedriver Pillow selenium
+      
+      - name: Generate Finviz map
+        run: |
+          cd skills/finviz-map/scripts
+          python capture_canvas.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add *.png index.html
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update Finviz market map - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: finviz-map-${{ github.run_number }}
+          path: |
+            *.png
+            index.html
+          retention-days: 30
