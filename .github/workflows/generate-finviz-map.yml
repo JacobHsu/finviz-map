@@ -8,6 +8,10 @@ on:
   # 也允許手動觸發
   workflow_dispatch:
 
+permissions:
+  contents: write  # 允許提交和推送
+  models: read     # 允許訪問 GitHub Models API
+
 jobs:
   generate-map:
     runs-on: ubuntu-latest
