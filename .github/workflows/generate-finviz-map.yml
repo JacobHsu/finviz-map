@@ -37,13 +37,21 @@ jobs:
         run: |
           cd skills/finviz-map/scripts
           python capture_canvas.py
-      
+
+      - name: Analyze map with GitHub Models API
+        run: |
+          python skills/finviz-map/scripts/analyze_map.py
+        env:
+          # 使用內建 GITHUB_TOKEN (預設)
+          # 如需使用自定義 token，改為: GITHUB_TOKEN: ${{ secrets.MODELS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add *.png index.html
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update Finviz market map - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          git add *.png index.html api/*.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update Finviz market map and API - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -55,4 +63,17 @@ jobs:
           path: |
             *.png
             index.html
+            api/*.json
           retention-days: 30
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
+          include_assets: |
+            api/*.json
+            *.png
+            index.html

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finviz API 示例</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft JhengHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .stock-list {
+            list-style: none;
+        }
+
+        .stock-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #e74c3c;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .stock-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.2);
+        }
+
+        .stock-ticker {
+            font-weight: bold;
+            font-size: 1.3em;
+            color: #333;
+            font-family: 'Monaco', 'Courier New', monospace;
+        }
+
+        .stock-change {
+            font-size: 1.4em;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        .rank {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background: #e74c3c;
+            color: white;
+            border-radius: 50%;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .meta-info {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .meta-label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #c33;
+        }
+
+        .api-url {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #333;
+            word-break: break-all;
+            margin-top: 15px;
+        }
+
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background 0.3s;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background: #5568d3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>📉 今日跌幅最大股票</h1>
+            <p class="subtitle">即時資料來自 Finviz 市場地圖</p>
+
+            <div id="content">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    載入中...
+                </div>
+            </div>
+
+            <button class="btn" onclick="loadData()">🔄 刷新資料</button>
+
+            <div class="api-url">
+                <strong>API 端点:</strong><br>
+                <span id="api-url">loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 动态检测 GitHub Pages URL
+        const getApiUrl = () => {
+            const baseUrl = window.location.origin + window.location.pathname.replace('/api/example.html', '');
+            return `${baseUrl}/api/top_losers.json`;
+        };
+
+        const loadData = async () => {
+            const contentDiv = document.getElementById('content');
+            const apiUrlSpan = document.getElementById('api-url');
+
+            const apiUrl = getApiUrl();
+            apiUrlSpan.textContent = apiUrl;
+
+            try {
+                contentDiv.innerHTML = `
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        載入中...
+                    </div>
+                `;
+
+                const response = await fetch(apiUrl);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const result = await response.json();
+                const data = result.data || result;
+
+                // 顯示股票列表
+                let html = '<ul class="stock-list">';
+
+                data.top_losers.forEach((stock, index) => {
+                    html += `
+                        <li class="stock-item">
+                            <div>
+                                <span class="rank">${index + 1}</span>
+                                <span class="stock-ticker">${stock.ticker}</span>
+                            </div>
+                            <span class="stock-change">${stock.change}</span>
+                        </li>
+                    `;
+                });
+
+                html += '</ul>';
+
+                // 新增元資訊
+                html += `
+                    <div class="meta-info">
+                        <div>
+                            <span class="meta-label">資料來源:</span> ${data.source || 'finviz'}
+                        </div>
+                        <div>
+                            <span class="meta-label">更新時間:</span> ${new Date(data.generated_at).toLocaleString('zh-TW')}
+                        </div>
+                    </div>
+                `;
+
+                contentDiv.innerHTML = html;
+
+            } catch (error) {
+                contentDiv.innerHTML = `
+                    <div class="error">
+                        <strong>❌ 載入失敗</strong><br>
+                        ${error.message}<br>
+                        <small>請檢查 API 端點是否正確，或稍後再試。</small>
+                    </div>
+                `;
+                console.error('Error loading data:', error);
+            }
+        };
+
+        // 頁面載入時自動獲取資料
+        loadData();
+
+        // 每 5 分鐘自動刷新
+        setInterval(loadData, 5 * 60 * 1000);
+    </script>
+</body>
+</html>

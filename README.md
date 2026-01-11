@@ -1,15 +1,39 @@
-# Finviz 市場地圖截圖工具
+# Finviz 市場地圖截圖與 API 工具
 
-自動捕捉 Finviz.com 市場地圖的高品質截圖並儲存為 PNG 圖片。非常適合追蹤市場趨勢、製作報告或在專案中嵌入市場視覺化圖表。
+自動捕捉 Finviz.com 市場地圖的高品質截圖並使用 AI 分析生成 JSON API。非常適合追蹤市場趨勢、製作報告或在專案中嵌入市場視覺化圖表。
 
 ## 功能特色
 
 - 📊 **多種市場類型**：S&P 500、全球市場、ETF 和加密貨幣
 - 🖼️ **高品質截圖**：直接擷取 canvas 元素以獲得清晰圖像
+- 🤖 **AI 智能分析**：使用 GitHub Models API (GPT-4o Vision) 識別跌幅最大股票
+- 📡 **RESTful API**：自動生成 JSON API，供其他應用呼叫
 - 🌐 **繞過 Cloudflare**：自動處理 Cloudflare 驗證
-- 📱 **響應式 HTML 檢視器**：可選的深色主題 HTML 檔案，方便查看
-- 🔄 **自動安裝依賴**：自動安裝所需的 Python 套件
+- 🔄 **自動化部署**：GitHub Actions 自動更新並部署到 GitHub Pages
 - ⚡ **簡單的命令列介面**：易於使用的 CLI 工具
+
+---
+
+## 🚀 快速使用 API
+
+如果你只想使用 API 功能，請前往 **[API 完整文件](api/README.md)** 查看：
+- ✅ API 端點說明
+- ✅ 使用範例（JavaScript、Python、cURL）
+- ✅ 設定指南（3 步完成）
+- ✅ 進階設定與故障排除
+- ✅ 應用範例（Discord 機器人、郵件通知等）
+
+**API 端點範例**:
+```
+https://{your-username}.github.io/finviz-map/api/top_losers.json
+```
+
+**線上展示**:
+```
+https://{your-username}.github.io/finviz-map/api/example.html
+```
+
+---
 
 ## 市場類型
 
@@ -20,15 +44,17 @@
 | `etf` | 交易所交易基金 | `etf.png` |
 | `crypto` | 加密貨幣市場 | `crypto.png` |
 
-## 系統需求
+---
+
+## 本地使用（截圖工具）
+
+### 系統需求
 
 - **Python 3.7+**
 - **Chrome/Chromium 瀏覽器**：瀏覽器自動化所需
 - **依賴套件**（自動安裝）：
   - `undetected-chromedriver`
   - `Pillow`
-
-## 快速開始
 
 ### 基本用法
 
@@ -63,15 +89,32 @@ python skills/finviz-map/scripts/capture_canvas.py -t crypto
 python skills/finviz-map/scripts/capture_canvas.py -t sec --no-html
 ```
 
+---
+
 ## 工作原理
 
+### 截圖流程
 1. 以可見模式開啟 Chrome 瀏覽器（繞過 Cloudflare 所需）
 2. 導航至 Finviz 地圖頁面
 3. 等待 Cloudflare 驗證（35-40 秒）
 4. 定位包含市場地圖的 canvas 元素
 5. 捕捉高解析度截圖
 6. 將 PNG 儲存至專案根目錄
-7. 可選建立 HTML 檢視器
+
+### AI 分析流程（自動化）
+1. 讀取生成的市場地圖截圖 (spy.png)
+2. 呼叫 GitHub Models API (GPT-4o with Vision)
+3. AI 識別圖片中所有股票及其漲跌幅
+4. 提取跌幅最大的 5 檔股票
+5. 生成 JSON API 檔案
+6. 部署到 GitHub Pages 供外部呼叫
+
+### 自動化流程
+- 每個交易日美東時間 4:30 PM 自動運行
+- GitHub Actions 自動執行截圖 → AI 分析 → 部署
+- 無需人工干預，全自動更新
+
+---
 
 ## 輸出檔案
 
@@ -86,6 +129,14 @@ python skills/finviz-map/scripts/capture_canvas.py -t sec --no-html
 - **樣式**：深色主題，響應式設計
 - **內容**：顯示最近捕捉的 PNG
 
+### JSON API（自動生成）
+- **位置**：`api/` 目錄
+- **檔案**：`top_losers.json` (完整版)、`top_losers_simple.json` (簡化版)
+- **更新**：每個交易日自動更新
+- **文件**：查看 [api/README.md](api/README.md)
+
+---
+
 ## 重要提示
 
 ⏱️ **執行時間**：腳本需要 35-40 秒完成（Cloudflare 驗證）
@@ -95,6 +146,8 @@ python skills/finviz-map/scripts/capture_canvas.py -t sec --no-html
 🔄 **即時數據**：截圖捕捉執行時的當前市場數據
 
 📁 **檔案覆蓋**：每次執行會覆蓋相同類型的舊 PNG 檔案
+
+---
 
 ## 故障排除
 
@@ -115,6 +168,8 @@ python skills/finviz-map/scripts/capture_canvas.py -t sec --no-html
 - 確保已安裝 Chrome/Chromium
 - 將 Chrome 更新至最新版本
 - 執行前關閉其他 Chrome 實例
+
+---
 
 ## 使用範例
 
@@ -139,23 +194,39 @@ python skills/finviz-map/scripts/capture_canvas.py -t crypto --no-html
 # 結果：spy.png、world.png、etf.png、crypto.png
 ```
 
+---
+
 ## 專案結構
 
 ```
 finviz-map/
 ├── README.md                           # 說明文件（本檔案）
-├── .gitignore                          # Git 忽略規則
 ├── spy.png                             # 生成：S&P 500 地圖
-├── world.png                           # 生成：全球市場地圖
-├── etf.png                             # 生成：ETF 地圖
-├── crypto.png                          # 生成：加密貨幣地圖
 ├── index.html                          # 生成：HTML 檢視器
+├── api/
+│   ├── README.md                       # API 完整文件 ⭐
+│   ├── example.html                    # API 線上展示
+│   ├── top_losers.json                 # 生成：API 資料（完整版）
+│   └── top_losers_simple.json          # 生成：API 資料（簡化版）
+├── .github/
+│   └── workflows/
+│       └── generate-finviz-map.yml     # 自動化工作流
 └── skills/
     └── finviz-map/
-        ├── SKILL.md                    # 詳細文件
         └── scripts/
-            └── capture_canvas.py       # 主要腳本
+            ├── capture_canvas.py       # 截圖程式碼
+            └── analyze_map.py          # AI 分析程式碼
 ```
+
+---
+
+## 📚 相關連結
+
+- **API 完整文件**: [api/README.md](api/README.md) ⭐ 推薦閱讀
+- **GitHub Models**: [https://docs.github.com/en/github-models](https://docs.github.com/en/github-models)
+- **Finviz 市場地圖**: [https://finviz.com/map.ashx](https://finviz.com/map.ashx)
+
+---
 
 ## 授權
 
@@ -163,5 +234,5 @@ finviz-map/
 
 ## 參考
 
-市場數據由 [Finviz.com](https://finviz.com) 提供 
-[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) 
+市場數據由 [Finviz.com](https://finviz.com) 提供  
+[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
