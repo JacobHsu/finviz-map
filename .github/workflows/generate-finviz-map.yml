@@ -40,8 +40,8 @@ jobs:
           export DISPLAY=:99
           sudo Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
           sleep 2
-          cd skills/finviz-map/scripts
-          python capture_canvas.py --headless
+          # 使用絕對路徑執行腳本，避免路徑問題
+          python skills/finviz-map/scripts/capture_canvas.py --headless
 
       - name: Analyze map with GitHub Models API
         run: |

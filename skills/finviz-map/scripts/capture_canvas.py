@@ -68,13 +68,25 @@ def capture_finviz_canvas(map_type="sec", output_path="spy.png", headless=False)
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--disable-blink-features=AutomationControlled")
 
-    # Headless mode for CI/CD environments
+    # Headless mode for CI/CD environments with enhanced anti-detection
     if headless:
+        # Use new headless mode (more compatible)
         options.add_argument("--headless=new")
         options.add_argument("--disable-gpu")
         options.add_argument("--no-first-run")
         options.add_argument("--no-default-browser-check")
         options.add_argument("--disable-extensions")
+        
+        # Additional anti-detection measures
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_argument("--disable-infobars")
+        options.add_argument("--disable-notifications")
+        options.add_argument("--disable-popup-blocking")
+        options.add_argument("--ignore-certificate-errors")
+        options.add_argument("--disable-web-security")
+        
+        # Set user agent to appear more like a real browser
+        options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
     else:
         options.add_argument("--start-maximized")
 
