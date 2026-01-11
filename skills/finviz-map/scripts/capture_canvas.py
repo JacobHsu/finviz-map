@@ -40,14 +40,15 @@ def check_dependencies():
         )
 
 
-def capture_finviz_canvas(map_type="sec", output_path="spy.png"):
+def capture_finviz_canvas(map_type="sec", output_path="spy.png", headless=False):
     """
     Capture Finviz map canvas element as screenshot.
-    
+
     Args:
         map_type: Type of map (sec, world, etf, crypto)
         output_path: Path to save the screenshot
-    
+        headless: Run in headless mode (for CI/CD environments)
+
     Returns:
         True if successful, False otherwise
     """
@@ -66,7 +67,16 @@ def capture_finviz_canvas(map_type="sec", output_path="spy.png"):
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument("--start-maximized")
+
+    # Headless mode for CI/CD environments
+    if headless:
+        options.add_argument("--headless=new")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--no-first-run")
+        options.add_argument("--no-default-browser-check")
+        options.add_argument("--disable-extensions")
+    else:
+        options.add_argument("--start-maximized")
 
     # Map type URLs
     map_urls = {
@@ -314,6 +324,11 @@ def main():
         action="store_true",
         help="Don't create HTML file, only save screenshot"
     )
+    parser.add_argument(
+        "--headless",
+        action="store_true",
+        help="Run in headless mode (for CI/CD environments)"
+    )
 
     args = parser.parse_args()
 
@@ -336,7 +351,7 @@ def main():
     print(f"📁 Output directory: {script_dir}\n")
 
     # Capture canvas screenshot
-    success = capture_finviz_canvas(args.type, str(png_path))
+    success = capture_finviz_canvas(args.type, str(png_path), headless=args.headless)
 
     if not success:
         print("\n❌ Failed to capture screenshot")

@@ -21,12 +21,12 @@ jobs:
         with:
           python-version: '3.12'
       
-      - name: Install Chrome
+      - name: Install Chrome and display
         run: |
           wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
           sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
           sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
+          sudo apt-get install -y google-chrome-stable xvfb
       
       - name: Install Python dependencies
         run: |
@@ -36,8 +36,12 @@ jobs:
       
       - name: Generate Finviz map
         run: |
+          # 使用 xvfb 提供虛擬顯示器（備用方案）
+          export DISPLAY=:99
+          sudo Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
+          sleep 2
           cd skills/finviz-map/scripts
-          python capture_canvas.py
+          python capture_canvas.py --headless
 
       - name: Analyze map with GitHub Models API
         run: |
