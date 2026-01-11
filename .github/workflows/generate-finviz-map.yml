@@ -31,7 +31,8 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install undetected-chromedriver Pillow selenium
+          pip install setuptools
+          pip install undetected-chromedriver Pillow selenium requests
       
       - name: Generate Finviz map
         run: |
