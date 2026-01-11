@@ -1,0 +1,26 @@
+{
+  "top_losers": [
+    {
+      "ticker": "NOW",
+      "change": "-3.00%"
+    },
+    {
+      "ticker": "COF",
+      "change": "-2.53%"
+    },
+    {
+      "ticker": "UBER",
+      "change": "-2.46%"
+    },
+    {
+      "ticker": "ADBE",
+      "change": "-1.50%"
+    },
+    {
+      "ticker": "NFLX",
+      "change": "-1.18%"
+    }
+  ],
+  "generated_at": "2023-10-30T12:00:00Z",
+  "source": "finviz"
+}
