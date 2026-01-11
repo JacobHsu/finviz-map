@@ -21,27 +21,19 @@ jobs:
         with:
           python-version: '3.12'
       
-      - name: Install Chrome and display
-        run: |
-          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable xvfb
-      
+
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install setuptools
-          pip install undetected-chromedriver Pillow selenium requests
+          pip install playwright Pillow requests
+          python -m playwright install chromium
+          python -m playwright install-deps
       
       - name: Generate Finviz map
         run: |
-          # 使用 xvfb 提供虛擬顯示器（備用方案）
-          export DISPLAY=:99
-          sudo Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
-          sleep 2
-          # 使用絕對路徑執行腳本，避免路徑問題
-          python skills/finviz-map/scripts/capture_canvas.py --headless
+          # Playwright 不需要 Xvfb，它有更好的 headless 支援
+          python skills/finviz-map/scripts/capture_canvas_playwright.py
 
       - name: Analyze map with GitHub Models API
         run: |
