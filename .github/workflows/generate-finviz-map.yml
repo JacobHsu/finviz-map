@@ -1,9 +1,9 @@
 name: Generate Finviz Market Map
 
 on:
-  # 每個交易日美國股市收盤後執行 (美東時間 4:30 PM = UTC 9:30 PM)
+  # 每個交易日美國股市開盤後一小時執行 (美東時間 10:30 AM = UTC 3:30 PM)
   schedule:
-    - cron: '30 21 * * 1-5'  # 週一到週五 UTC 9:30 PM (美東 4:30 PM)
+    - cron: '30 15 * * 1-5'  # 週一到週五 UTC 3:30 PM (美東 10:30 AM)
   
   # 也允許手動觸發
   workflow_dispatch:
