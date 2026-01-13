@@ -1,24 +1,24 @@
 {
   "top_losers": [
     {
-      "ticker": "COF",
-      "change": "-6.42%"
+      "ticker": "MA",
+      "change": "-5.26%"
     },
     {
-      "ticker": "AXP",
-      "change": "-4.26%"
+      "ticker": "SNPS",
+      "change": "-2.60%"
+    },
+    {
+      "ticker": "META",
+      "change": "-2.49%"
+    },
+    {
+      "ticker": "CRM",
+      "change": "-3.50%"
     },
     {
       "ticker": "RCL",
-      "change": "-3.33%"
-    },
-    {
-      "ticker": "C",
-      "change": "-2.98%"
-    },
-    {
-      "ticker": "DIS",
-      "change": "-2.64%"
+      "change": "-3.59%"
     }
   ],
   "generated_at": "2023-10-04T12:00:00Z",
