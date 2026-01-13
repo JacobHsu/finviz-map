@@ -25,12 +25,12 @@
 
 **API 端點範例**:
 ```
-https://{your-username}.github.io/finviz-map/api/top_losers.json
+https://JacobHsu.github.io/finviz-map/api/top_losers.json
 ```
 
 **線上展示**:
 ```
-https://{your-username}.github.io/finviz-map/api/example.html
+https://JacobHsu.github.io/finviz-map/api/example.html
 ```
 
 ---
