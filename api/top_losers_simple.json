@@ -1,26 +1,26 @@
 {
   "top_losers": [
     {
-      "ticker": "APP",
-      "change": "-8.49%"
+      "ticker": "LLY",
+      "change": "-5.44%"
     },
     {
-      "ticker": "BAC",
-      "change": "-4.64%"
+      "ticker": "BSX",
+      "change": "-4.99%"
     },
     {
-      "ticker": "AVGO",
-      "change": "-4.33%"
+      "ticker": "RTX",
+      "change": "-0.96%"
     },
     {
-      "ticker": "RCL",
-      "change": "-3.87%"
+      "ticker": "GOOG",
+      "change": "-0.83%"
     },
     {
-      "ticker": "ORCL",
-      "change": "-2.56%"
+      "ticker": "INTU",
+      "change": "-0.83%"
     }
   ],
-  "generated_at": "2023-10-04T12:00:00Z",
+  "generated_at": "2023-10-03T12:00:00Z",
   "source": "finviz"
 }
