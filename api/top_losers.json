@@ -3,29 +3,29 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "LLY",
-        "change": "-5.44%"
-      },
-      {
-        "ticker": "BSX",
-        "change": "-4.99%"
-      },
-      {
-        "ticker": "RTX",
-        "change": "-0.96%"
-      },
-      {
-        "ticker": "GOOG",
-        "change": "-0.83%"
+        "ticker": "APP",
+        "change": "-3.39%"
       },
       {
         "ticker": "INTU",
-        "change": "-0.83%"
+        "change": "-2.50%"
+      },
+      {
+        "ticker": "PLTR",
+        "change": "-1.95%"
+      },
+      {
+        "ticker": "CRWD",
+        "change": "-1.88%"
+      },
+      {
+        "ticker": "ADBE",
+        "change": "-1.94%"
       }
     ],
-    "generated_at": "2023-10-03T12:00:00Z",
+    "generated_at": "2023-10-04T12:00:00Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2023-10-03T12:00:00Z"
+  "last_updated": "2023-10-04T12:00:00Z"
 }
