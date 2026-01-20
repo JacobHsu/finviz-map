@@ -3,29 +3,29 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "APP",
-        "change": "-6.30%"
+        "ticker": "ORCL",
+        "change": "-3.52%"
       },
       {
-        "ticker": "PLTR",
-        "change": "-3.45%"
+        "ticker": "IBM",
+        "change": "-3.63%"
       },
       {
-        "ticker": "GILD",
-        "change": "-3.01%"
+        "ticker": "AVGO",
+        "change": "-3.03%"
       },
       {
-        "ticker": "TMUS",
-        "change": "-2.28%"
+        "ticker": "NVDA",
+        "change": "-2.90%"
       },
       {
-        "ticker": "ADBE",
-        "change": "-2.62%"
+        "ticker": "UBER",
+        "change": "-2.37%"
       }
     ],
-    "generated_at": "2023-10-30T12:00:00Z",
+    "generated_at": "2023-11-01T12:00:00Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2023-10-30T12:00:00Z"
+  "last_updated": "2023-11-01T12:00:00Z"
 }
