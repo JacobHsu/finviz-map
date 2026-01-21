@@ -1,24 +1,24 @@
 {
   "top_losers": [
     {
+      "ticker": "APP",
+      "change": "-3.65%"
+    },
+    {
+      "ticker": "NFLX",
+      "change": "-3.29%"
+    },
+    {
       "ticker": "ORCL",
-      "change": "-3.52%"
+      "change": "-2.71%"
     },
     {
-      "ticker": "IBM",
-      "change": "-3.63%"
+      "ticker": "PM",
+      "change": "-2.12%"
     },
     {
-      "ticker": "AVGO",
-      "change": "-3.03%"
-    },
-    {
-      "ticker": "NVDA",
-      "change": "-2.90%"
-    },
-    {
-      "ticker": "UBER",
-      "change": "-2.37%"
+      "ticker": "JNJ",
+      "change": "-1.82%"
     }
   ],
   "generated_at": "2023-11-01T12:00:00Z",
