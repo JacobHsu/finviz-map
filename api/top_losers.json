@@ -3,29 +3,29 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "APP",
-        "change": "-3.65%"
+        "ticker": "GE",
+        "change": "-6.01%"
       },
       {
-        "ticker": "NFLX",
-        "change": "-3.29%"
+        "ticker": "SYK",
+        "change": "-7.07%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-2.71%"
+        "ticker": "WDC",
+        "change": "-6.44%"
       },
       {
-        "ticker": "PM",
-        "change": "-2.12%"
+        "ticker": "STX",
+        "change": "-3.32%"
       },
       {
-        "ticker": "JNJ",
-        "change": "-1.82%"
+        "ticker": "SNPS",
+        "change": "-2.48%"
       }
     ],
-    "generated_at": "2023-11-01T12:00:00Z",
+    "generated_at": "2023-10-04T12:00:00Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2023-11-01T12:00:00Z"
+  "last_updated": "2023-10-04T12:00:00Z"
 }
