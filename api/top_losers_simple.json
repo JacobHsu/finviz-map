@@ -1,24 +1,24 @@
 {
   "top_losers": [
     {
-      "ticker": "GE",
-      "change": "-6.01%"
+      "ticker": "INTC",
+      "change": "-15.57%"
     },
     {
-      "ticker": "SYK",
-      "change": "-7.07%"
+      "ticker": "DIS",
+      "change": "-1.60%"
     },
     {
-      "ticker": "WDC",
-      "change": "-6.44%"
+      "ticker": "CAT",
+      "change": "-1.71%"
     },
     {
-      "ticker": "STX",
-      "change": "-3.32%"
+      "ticker": "BX",
+      "change": "-1.72%"
     },
     {
-      "ticker": "SNPS",
-      "change": "-2.48%"
+      "ticker": "MRK",
+      "change": "-1.32%"
     }
   ],
   "generated_at": "2023-10-04T12:00:00Z",
