@@ -4,28 +4,28 @@
     "top_losers": [
       {
         "ticker": "INTC",
-        "change": "-15.57%"
+        "change": "-5.76%"
       },
       {
-        "ticker": "DIS",
-        "change": "-1.60%"
+        "ticker": "AMD",
+        "change": "-3.33%"
       },
       {
-        "ticker": "CAT",
-        "change": "-1.71%"
+        "ticker": "MU",
+        "change": "-2.52%"
       },
       {
-        "ticker": "BX",
-        "change": "-1.72%"
+        "ticker": "TSLA",
+        "change": "-2.17%"
       },
       {
-        "ticker": "MRK",
-        "change": "-1.32%"
+        "ticker": "LMT",
+        "change": "-2.31%"
       }
     ],
-    "generated_at": "2023-10-04T12:00:00Z",
+    "generated_at": "2023-11-01T12:00:00Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2023-10-04T12:00:00Z"
+  "last_updated": "2023-11-01T12:00:00Z"
 }
