@@ -3,29 +3,29 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "INTC",
-        "change": "-5.76%"
+        "ticker": "UNH",
+        "change": "-18.01%"
       },
       {
-        "ticker": "AMD",
-        "change": "-3.33%"
+        "ticker": "INTU",
+        "change": "-4.12%"
       },
       {
-        "ticker": "MU",
-        "change": "-2.52%"
+        "ticker": "ORCL",
+        "change": "-3.54%"
       },
       {
-        "ticker": "TSLA",
-        "change": "-2.17%"
+        "ticker": "ADBE",
+        "change": "-3.57%"
       },
       {
-        "ticker": "LMT",
-        "change": "-2.31%"
+        "ticker": "BA",
+        "change": "-2.63%"
       }
     ],
-    "generated_at": "2023-11-01T12:00:00Z",
+    "generated_at": "2023-10-03T12:00:00Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2023-11-01T12:00:00Z"
+  "last_updated": "2023-10-03T12:00:00Z"
 }
