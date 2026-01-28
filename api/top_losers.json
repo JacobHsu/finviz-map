@@ -3,24 +3,24 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "UNH",
-        "change": "-18.01%"
+        "ticker": "APH",
+        "change": "-13.02%"
       },
       {
-        "ticker": "INTU",
-        "change": "-4.12%"
+        "ticker": "LVS",
+        "change": "-6.49%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-3.54%"
+        "ticker": "LLY",
+        "change": "-2.02%"
       },
       {
-        "ticker": "ADBE",
-        "change": "-3.57%"
+        "ticker": "ROP",
+        "change": "-2.26%"
       },
       {
         "ticker": "BA",
-        "change": "-2.63%"
+        "change": "-1.50%"
       }
     ],
     "generated_at": "2023-10-03T12:00:00Z",
