@@ -3,29 +3,29 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "APH",
-        "change": "-13.02%"
+        "ticker": "MSFT",
+        "change": "-11.46%"
       },
       {
-        "ticker": "LVS",
-        "change": "-6.49%"
+        "ticker": "ORCL",
+        "change": "-6.15%"
       },
       {
-        "ticker": "LLY",
-        "change": "-2.02%"
+        "ticker": "PLTR",
+        "change": "-5.52%"
       },
       {
-        "ticker": "ROP",
-        "change": "-2.26%"
+        "ticker": "SNPS",
+        "change": "-5.47%"
       },
       {
-        "ticker": "BA",
-        "change": "-1.50%"
+        "ticker": "CDNS",
+        "change": "-6.18%"
       }
     ],
-    "generated_at": "2023-10-03T12:00:00Z",
+    "generated_at": "2023-10-04T12:00:00Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2023-10-03T12:00:00Z"
+  "last_updated": "2023-10-04T12:00:00Z"
 }
