@@ -3,29 +3,29 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "MSFT",
-        "change": "-11.46%"
+        "ticker": "KLAC",
+        "change": "-11.30%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-6.15%"
+        "ticker": "META",
+        "change": "-2.42%"
       },
       {
-        "ticker": "PLTR",
-        "change": "-5.52%"
-      },
-      {
-        "ticker": "SNPS",
-        "change": "-5.47%"
+        "ticker": "AMD",
+        "change": "-3.95%"
       },
       {
         "ticker": "CDNS",
-        "change": "-6.18%"
+        "change": "-2.22%"
+      },
+      {
+        "ticker": "PLTR",
+        "change": "-2.11%"
       }
     ],
-    "generated_at": "2023-10-04T12:00:00Z",
+    "generated_at": "2023-10-30T12:00:00Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2023-10-04T12:00:00Z"
+  "last_updated": "2023-10-30T12:00:00Z"
 }
