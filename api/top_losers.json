@@ -3,29 +3,29 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "KLAC",
-        "change": "-11.30%"
+        "ticker": "DIS",
+        "change": "-6.55%"
       },
       {
-        "ticker": "META",
-        "change": "-2.42%"
+        "ticker": "TSLA",
+        "change": "-2.62%"
       },
       {
-        "ticker": "AMD",
-        "change": "-3.95%"
+        "ticker": "CVX",
+        "change": "-1.64%"
       },
       {
-        "ticker": "CDNS",
-        "change": "-2.22%"
+        "ticker": "RTX",
+        "change": "-1.64%"
       },
       {
-        "ticker": "PLTR",
-        "change": "-2.11%"
+        "ticker": "NVDA",
+        "change": "-1.44%"
       }
     ],
-    "generated_at": "2023-10-30T12:00:00Z",
+    "generated_at": "2023-10-04T12:00:00Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2023-10-30T12:00:00Z"
+  "last_updated": "2023-10-04T12:00:00Z"
 }
