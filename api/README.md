@@ -8,19 +8,13 @@
 
 ### API 端點
 
-**完整版本 (含元資料):**
 ```
 https://{your-username}.github.io/finviz-map/api/top_losers.json
 ```
 
-**簡化版本 (僅資料):**
-```
-https://{your-username}.github.io/finviz-map/api/top_losers_simple.json
-```
-
 ### 回應格式
 
-**完整版回應** (`top_losers.json`):
+**回應格式**:
 ```json
 {
   "status": "success",
@@ -37,21 +31,6 @@ https://{your-username}.github.io/finviz-map/api/top_losers_simple.json
   },
   "version": "1.0",
   "last_updated": "2024-01-11T21:45:00Z"
-}
-```
-
-**簡化版回應** (`top_losers_simple.json`):
-```json
-{
-  "top_losers": [
-    {"ticker": "UBER", "change": "-2.10%"},
-    {"ticker": "NFLX", "change": "-1.18%"},
-    {"ticker": "LLY", "change": "-1.99%"},
-    {"ticker": "ABBV", "change": "-1.91%"},
-    {"ticker": "AMD", "change": "-0.74%"}
-  ],
-  "generated_at": "2024-01-11T21:45:00Z",
-  "source": "finviz"
 }
 ```
 
@@ -92,11 +71,8 @@ for stock in data['data']['top_losers']:
 ### cURL
 
 ```bash
-# 獲取完整資料
+# 獲取資料
 curl https://{your-username}.github.io/finviz-map/api/top_losers.json
-
-# 獲取簡化資料
-curl https://{your-username}.github.io/finviz-map/api/top_losers_simple.json
 
 # 格式化輸出 (使用 jq)
 curl -s https://{your-username}.github.io/finviz-map/api/top_losers.json | jq '.data.top_losers'
