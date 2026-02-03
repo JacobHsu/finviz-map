@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 使用 GitHub Models API 分析 Finviz 市場地圖
-提取跌幅最大的五檔股票並輸出到 JSON
+提取跌幅最大的股票並輸出到 JSON
 """
 
 import os
@@ -48,7 +48,7 @@ def analyze_with_github_models(image_path, api_token):
 - 綠色方塊 = 上漲的股票
 - 每個方塊顯示股票代碼和漲跌幅百分比
 
-請找出跌幅最大的五檔股票（最紅/最深紅色的方塊）。
+請找出跌幅最大的十檔股票（最紅/最深紅色的方塊）。如果不足十檔，則返回所有符合條件的股票。
 
 要求：
 1. 只返回 JSON 格式，不要其他文字
@@ -57,9 +57,7 @@ def analyze_with_github_models(image_path, api_token):
   "top_losers": [
     {"ticker": "股票代碼", "change": "跌幅百分比"},
     ...
-  ],
-  "generated_at": "ISO 時間戳記",
-  "source": "finviz"
+  ]
 }
 
 3. 跌幅應該是負數（例如 "-2.10%"）
@@ -124,16 +122,17 @@ def analyze_with_github_models(image_path, api_token):
 def save_json_api(data, output_path):
     """儲存 JSON API 回應檔案"""
 
-    # 確保有 generated_at 欄位
-    if "generated_at" not in data:
-        data["generated_at"] = datetime.utcnow().isoformat() + "Z"
+    # 使用實際時間（不依賴 AI 回傳的時間）
+    now = datetime.utcnow().isoformat() + "Z"
+    data["generated_at"] = now
+    data["source"] = "finviz"
 
     # 添加 API 中繼資料
     api_response = {
         "status": "success",
         "data": data,
         "version": "1.0",
-        "last_updated": data.get("generated_at")
+        "last_updated": now
     }
 
     # 儲存為美化的 JSON
@@ -141,13 +140,6 @@ def save_json_api(data, output_path):
         json.dump(api_response, f, indent=2, ensure_ascii=False)
 
     print(f"✅ JSON API 已儲存: {output_path}")
-
-    # 同時儲存一個簡化版本（只包含資料）
-    simple_output = output_path.replace('.json', '_simple.json')
-    with open(simple_output, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-    print(f"✅ 簡化版 JSON 已儲存: {simple_output}")
 
     return api_response
 
@@ -205,7 +197,7 @@ def main():
 
         # 顯示結果
         print(f"\n🎉 分析完成!")
-        print(f"\n跌幅最大的 5 檔股票:")
+        print(f"\n跌幅最大的股票:")
         for i, stock in enumerate(result.get("top_losers", []), 1):
             print(f"  {i}. {stock.get('ticker', 'N/A')}: {stock.get('change', 'N/A')}")
 

@@ -131,7 +131,7 @@ python skills/finviz-map/scripts/capture_canvas.py -t sec --no-html
 
 ### JSON API（自動生成）
 - **位置**：`api/` 目錄
-- **檔案**：`top_losers.json` (完整版)、`top_losers_simple.json` (簡化版)
+- **檔案**：`top_losers.json`
 - **更新**：每個交易日自動更新
 - **文件**：查看 [api/README.md](api/README.md)
 
@@ -206,8 +206,7 @@ finviz-map/
 ├── api/
 │   ├── README.md                       # API 完整文件 ⭐
 │   ├── example.html                    # API 線上展示
-│   ├── top_losers.json                 # 生成：API 資料（完整版）
-│   └── top_losers_simple.json          # 生成：API 資料（簡化版）
+│   └── top_losers.json                 # 生成：API 資料
 ├── .github/
 │   └── workflows/
 │       └── generate-finviz-map.yml     # 自動化工作流
