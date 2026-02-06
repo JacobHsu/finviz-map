@@ -3,49 +3,37 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "PLTR",
-        "change": "-7.25%"
-      },
-      {
-        "ticker": "LLY",
-        "change": "-7.21%"
-      },
-      {
-        "ticker": "NOW",
-        "change": "-5.12%"
+        "ticker": "AMZN",
+        "change": "-7.88%"
       },
       {
         "ticker": "GOOG",
-        "change": "-4.45%"
+        "change": "-2.56%"
       },
       {
-        "ticker": "AMZN",
-        "change": "-4.44%"
+        "ticker": "META",
+        "change": "-2.22%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-4.71%"
+        "ticker": "ADBE",
+        "change": "-2.10%"
       },
       {
-        "ticker": "CRM",
-        "change": "-3.56%"
+        "ticker": "TXN",
+        "change": "-1.89%"
       },
       {
-        "ticker": "MS",
-        "change": "-3.47%"
+        "ticker": "ADI",
+        "change": "-1.51%"
       },
       {
-        "ticker": "CAT",
-        "change": "-3.65%"
-      },
-      {
-        "ticker": "TSLA",
-        "change": "-3.82%"
+        "ticker": "VZ",
+        "change": "-1.13%"
       }
     ],
-    "generated_at": "2026-02-05T15:46:15.440773Z",
+    "generated_at": "2026-02-06T15:46:09.537925Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-02-05T15:46:15.440773Z"
+  "last_updated": "2026-02-06T15:46:09.537925Z"
 }
