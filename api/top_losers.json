@@ -3,37 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "AMZN",
-        "change": "-7.88%"
+        "ticker": "MRK",
+        "change": "-2.76%"
       },
       {
-        "ticker": "GOOG",
-        "change": "-2.56%"
+        "ticker": "NFLX",
+        "change": "-2.03%"
       },
       {
-        "ticker": "META",
-        "change": "-2.22%"
+        "ticker": "MA",
+        "change": "-1.99%"
       },
       {
-        "ticker": "ADBE",
-        "change": "-2.10%"
+        "ticker": "AAPL",
+        "change": "-1.75%"
       },
       {
-        "ticker": "TXN",
-        "change": "-1.89%"
+        "ticker": "MU",
+        "change": "-1.70%"
       },
       {
-        "ticker": "ADI",
-        "change": "-1.51%"
+        "ticker": "ACN",
+        "change": "-1.61%"
       },
       {
-        "ticker": "VZ",
-        "change": "-1.13%"
+        "ticker": "IBM",
+        "change": "-1.61%"
+      },
+      {
+        "ticker": "ADP",
+        "change": "-1.53%"
+      },
+      {
+        "ticker": "INTU",
+        "change": "-1.53%"
+      },
+      {
+        "ticker": "DIS",
+        "change": "-0.85%"
       }
     ],
-    "generated_at": "2026-02-06T15:46:09.537925Z",
+    "generated_at": "2026-02-09T15:48:39.545928Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-02-06T15:46:09.537925Z"
+  "last_updated": "2026-02-09T15:48:39.545928Z"
 }
