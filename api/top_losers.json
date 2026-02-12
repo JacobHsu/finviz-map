@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "PLTR",
-        "change": "-4.15%"
-      },
-      {
-        "ticker": "CRM",
-        "change": "-4.32%"
-      },
-      {
-        "ticker": "INTU",
-        "change": "-4.68%"
-      },
-      {
-        "ticker": "ADBE",
-        "change": "-2.58%"
-      },
-      {
         "ticker": "NFLX",
-        "change": "-2.71%"
+        "change": "-4.06%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-3.08%"
+        "ticker": "DIS",
+        "change": "-4.04%"
       },
       {
-        "ticker": "APO",
-        "change": "-3.15%"
+        "ticker": "EA",
+        "change": "-17.43%"
+      },
+      {
+        "ticker": "GILD",
+        "change": "-2.78%"
       },
       {
         "ticker": "IBM",
-        "change": "-2.64%"
+        "change": "-2.71%"
       },
       {
-        "ticker": "GOOG",
-        "change": "-1.97%"
+        "ticker": "PLTR",
+        "change": "-2.34%"
       },
       {
-        "ticker": "MSFT",
-        "change": "-2.00%"
+        "ticker": "ADP",
+        "change": "-2.19%"
+      },
+      {
+        "ticker": "ACN",
+        "change": "-2.80%"
+      },
+      {
+        "ticker": "META",
+        "change": "-1.13%"
+      },
+      {
+        "ticker": "AAPL",
+        "change": "-1.50%"
       }
     ],
-    "generated_at": "2026-02-11T15:49:29.079956Z",
+    "generated_at": "2026-02-12T15:48:17.772864Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-02-11T15:49:29.079956Z"
+  "last_updated": "2026-02-12T15:48:17.772864Z"
 }
