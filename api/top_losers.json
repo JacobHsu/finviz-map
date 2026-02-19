@@ -3,41 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "ABBV",
-        "change": "-2.26%"
+        "ticker": "BX",
+        "change": "-5.59%"
       },
       {
-        "ticker": "AMD",
-        "change": "-1.82%"
+        "ticker": "CDNS",
+        "change": "-5.25%"
       },
       {
-        "ticker": "T",
-        "change": "-1.74%"
-      },
-      {
-        "ticker": "LLY",
-        "change": "-1.60%"
-      },
-      {
-        "ticker": "BA",
-        "change": "-0.95%"
+        "ticker": "SNDK",
+        "change": "-3.86%"
       },
       {
         "ticker": "PANW",
-        "change": "-0.85%"
+        "change": "-2.11%"
       },
       {
-        "ticker": "MRK",
-        "change": "-0.67%"
+        "ticker": "LRCX",
+        "change": "-2.56%"
       },
       {
-        "ticker": "META",
-        "change": "-0.18%"
+        "ticker": "INTC",
+        "change": "-2.09%"
+      },
+      {
+        "ticker": "ADI",
+        "change": "-1.44%"
+      },
+      {
+        "ticker": "ACN",
+        "change": "-4.34%"
+      },
+      {
+        "ticker": "AMGN",
+        "change": "-2.16%"
+      },
+      {
+        "ticker": "ABBV",
+        "change": "-1.68%"
       }
     ],
-    "generated_at": "2026-02-18T15:48:20.499437Z",
+    "generated_at": "2026-02-19T15:47:19.424761Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-02-18T15:48:20.499437Z"
+  "last_updated": "2026-02-19T15:47:19.424761Z"
 }
