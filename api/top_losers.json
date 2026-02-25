@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "BAC",
-        "change": "-2.12%"
-      },
-      {
-        "ticker": "UNH",
-        "change": "-2.13%"
+        "ticker": "HD",
+        "change": "-3.35%"
       },
       {
         "ticker": "RTX",
-        "change": "-1.45%"
+        "change": "-2.17%"
       },
       {
-        "ticker": "C",
-        "change": "-1.82%"
+        "ticker": "CAT",
+        "change": "-1.47%"
       },
       {
-        "ticker": "WDC",
-        "change": "-1.83%"
+        "ticker": "PM",
+        "change": "-1.16%"
       },
       {
-        "ticker": "AVGO",
-        "change": "-1.17%"
+        "ticker": "INTC",
+        "change": "-1.21%"
+      },
+      {
+        "ticker": "ETN",
+        "change": "-1.27%"
+      },
+      {
+        "ticker": "CVX",
+        "change": "-1.04%"
       },
       {
         "ticker": "XOM",
-        "change": "-1.53%"
+        "change": "-0.83%"
       },
       {
-        "ticker": "JPM",
-        "change": "-1.40%"
+        "ticker": "JNJ",
+        "change": "-0.77%"
       },
       {
-        "ticker": "GILD",
-        "change": "-1.03%"
-      },
-      {
-        "ticker": "BRK-B",
-        "change": "-0.88%"
+        "ticker": "T",
+        "change": "-0.64%"
       }
     ],
-    "generated_at": "2026-02-24T15:49:16.079092Z",
+    "generated_at": "2026-02-25T15:49:42.201092Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-02-24T15:49:16.079092Z"
+  "last_updated": "2026-02-25T15:49:42.201092Z"
 }
