@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "AVGO",
-        "change": "-6.90%"
+        "ticker": "MS",
+        "change": "-5.21%"
       },
       {
-        "ticker": "AMAT",
-        "change": "-6.70%"
+        "ticker": "COF",
+        "change": "-5.63%"
       },
       {
-        "ticker": "LRCX",
-        "change": "-6.66%"
+        "ticker": "AXP",
+        "change": "-4.67%"
       },
       {
-        "ticker": "MU",
-        "change": "-5.98%"
+        "ticker": "BLK",
+        "change": "-4.33%"
       },
       {
-        "ticker": "NVDA",
-        "change": "-5.29%"
+        "ticker": "CRM",
+        "change": "-3.71%"
       },
       {
-        "ticker": "INTC",
-        "change": "-4.60%"
+        "ticker": "CRWD",
+        "change": "-3.61%"
       },
       {
-        "ticker": "WDC",
-        "change": "-4.04%"
+        "ticker": "ORCL",
+        "change": "-3.25%"
       },
       {
-        "ticker": "AMGN",
-        "change": "-2.47%"
+        "ticker": "INTU",
+        "change": "-3.20%"
       },
       {
-        "ticker": "PANW",
-        "change": "-2.67%"
+        "ticker": "MSFT",
+        "change": "-1.90%"
       },
       {
-        "ticker": "TSLA",
-        "change": "-2.67%"
+        "ticker": "ADI",
+        "change": "-1.80%"
       }
     ],
-    "generated_at": "2026-02-26T15:47:47.813238Z",
+    "generated_at": "2026-02-27T15:45:28.491671Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-02-26T15:47:47.813238Z"
+  "last_updated": "2026-02-27T15:45:28.491671Z"
 }
