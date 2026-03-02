@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "MS",
-        "change": "-5.21%"
+        "ticker": "BRK-B",
+        "change": "-4.57%"
       },
       {
-        "ticker": "COF",
-        "change": "-5.63%"
+        "ticker": "AMD",
+        "change": "-3.23%"
       },
       {
-        "ticker": "AXP",
-        "change": "-4.67%"
+        "ticker": "MU",
+        "change": "-3.03%"
       },
       {
-        "ticker": "BLK",
-        "change": "-4.33%"
+        "ticker": "WDC",
+        "change": "-2.57%"
       },
       {
-        "ticker": "CRM",
-        "change": "-3.71%"
+        "ticker": "GOOGL",
+        "change": "-2.27%"
       },
       {
-        "ticker": "CRWD",
-        "change": "-3.61%"
+        "ticker": "HD",
+        "change": "-2.24%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-3.25%"
+        "ticker": "AVGO",
+        "change": "-2.16%"
       },
       {
-        "ticker": "INTU",
-        "change": "-3.20%"
+        "ticker": "QCOM",
+        "change": "-2.02%"
       },
       {
-        "ticker": "MSFT",
-        "change": "-1.90%"
+        "ticker": "CSCO",
+        "change": "-2.01%"
       },
       {
-        "ticker": "ADI",
-        "change": "-1.80%"
+        "ticker": "LRCX",
+        "change": "-1.97%"
       }
     ],
-    "generated_at": "2026-02-27T15:45:28.491671Z",
+    "generated_at": "2026-03-02T15:46:23.804590Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-02-27T15:45:28.491671Z"
+  "last_updated": "2026-03-02T15:46:23.804590Z"
 }
