@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "MU",
-        "change": "-8.31%"
+        "ticker": "FANG",
+        "change": "-2.59%"
       },
       {
-        "ticker": "WDC",
-        "change": "-8.19%"
+        "ticker": "CVX",
+        "change": "-1.72%"
       },
       {
-        "ticker": "GE",
-        "change": "-6.79%"
+        "ticker": "BSX",
+        "change": "-1.77%"
       },
       {
-        "ticker": "KLAC",
-        "change": "-6.32%"
+        "ticker": "CRWD",
+        "change": "-1.77%"
       },
       {
-        "ticker": "INTC",
-        "change": "-6.33%"
+        "ticker": "XOM",
+        "change": "-1.68%"
       },
       {
-        "ticker": "LRCX",
-        "change": "-6.02%"
+        "ticker": "LMT",
+        "change": "-1.35%"
       },
       {
-        "ticker": "AMAT",
-        "change": "-5.47%"
+        "ticker": "KO",
+        "change": "-1.54%"
       },
       {
-        "ticker": "AMD",
-        "change": "-4.39%"
+        "ticker": "MO",
+        "change": "-1.50%"
       },
       {
-        "ticker": "ADI",
-        "change": "-4.06%"
+        "ticker": "GILD",
+        "change": "-0.81%"
       },
       {
-        "ticker": "PLTR",
-        "change": "-4.00%"
+        "ticker": "JPM",
+        "change": "-0.75%"
       }
     ],
-    "generated_at": "2026-03-03T15:47:02.329894Z",
+    "generated_at": "2026-03-04T15:46:16.978512Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-03-03T15:47:02.329894Z"
+  "last_updated": "2026-03-04T15:46:16.978512Z"
 }
