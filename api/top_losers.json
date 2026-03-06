@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "WMT",
-        "change": "-4.06%"
+        "ticker": "C",
+        "change": "-3.60%"
       },
       {
-        "ticker": "MRK",
-        "change": "-3.34%"
+        "ticker": "BAC",
+        "change": "-3.31%"
       },
       {
-        "ticker": "RTX",
-        "change": "-2.23%"
+        "ticker": "META",
+        "change": "-2.48%"
       },
       {
-        "ticker": "COST",
-        "change": "-2.17%"
+        "ticker": "INTC",
+        "change": "-2.97%"
       },
       {
-        "ticker": "GE",
-        "change": "-2.13%"
+        "ticker": "ADI",
+        "change": "-2.45%"
       },
       {
-        "ticker": "JNJ",
-        "change": "-2.31%"
+        "ticker": "WFC",
+        "change": "-2.98%"
+      },
+      {
+        "ticker": "TSLA",
+        "change": "-2.04%"
+      },
+      {
+        "ticker": "AMZN",
+        "change": "-1.73%"
+      },
+      {
+        "ticker": "MU",
+        "change": "-1.94%"
       },
       {
         "ticker": "LRCX",
-        "change": "-2.41%"
-      },
-      {
-        "ticker": "AMAT",
-        "change": "-2.37%"
-      },
-      {
-        "ticker": "CAT",
-        "change": "-2.59%"
-      },
-      {
-        "ticker": "NEE",
-        "change": "-2.96%"
+        "change": "-2.65%"
       }
     ],
-    "generated_at": "2026-03-05T15:47:49.230000Z",
+    "generated_at": "2026-03-06T15:45:27.613556Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-03-05T15:47:49.230000Z"
+  "last_updated": "2026-03-06T15:45:27.613556Z"
 }
