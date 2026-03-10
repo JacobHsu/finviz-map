@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "CSCO",
-        "change": "-3.60%"
+        "ticker": "NOW",
+        "change": "-9.12%"
       },
       {
-        "ticker": "COF",
-        "change": "-3.56%"
+        "ticker": "PLTR",
+        "change": "-3.75%"
       },
       {
-        "ticker": "BAC",
-        "change": "-3.01%"
+        "ticker": "ADBE",
+        "change": "-3.23%"
       },
       {
-        "ticker": "T",
-        "change": "-2.74%"
+        "ticker": "INTU",
+        "change": "-4.47%"
       },
       {
-        "ticker": "C",
-        "change": "-2.78%"
+        "ticker": "CRM",
+        "change": "-2.40%"
       },
       {
-        "ticker": "BA",
-        "change": "-2.67%"
+        "ticker": "QCOM",
+        "change": "-2.17%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-2.68%"
+        "ticker": "RSG",
+        "change": "-4.00%"
       },
       {
-        "ticker": "HD",
-        "change": "-2.60%"
+        "ticker": "NFLX",
+        "change": "-1.56%"
       },
       {
-        "ticker": "GE",
-        "change": "-2.44%"
+        "ticker": "ABT",
+        "change": "-1.86%"
       },
       {
-        "ticker": "TSLA",
-        "change": "-2.22%"
+        "ticker": "SYK",
+        "change": "-1.43%"
       }
     ],
-    "generated_at": "2026-03-09T15:48:33.172199Z",
+    "generated_at": "2026-03-10T16:23:22.748829Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-03-09T15:48:33.172199Z"
+  "last_updated": "2026-03-10T16:23:22.748829Z"
 }
