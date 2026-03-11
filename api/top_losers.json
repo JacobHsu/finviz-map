@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "NOW",
-        "change": "-9.12%"
-      },
-      {
-        "ticker": "PLTR",
-        "change": "-3.75%"
-      },
-      {
-        "ticker": "ADBE",
-        "change": "-3.23%"
-      },
-      {
-        "ticker": "INTU",
-        "change": "-4.47%"
-      },
-      {
-        "ticker": "CRM",
-        "change": "-2.40%"
-      },
-      {
-        "ticker": "QCOM",
-        "change": "-2.17%"
-      },
-      {
-        "ticker": "RSG",
-        "change": "-4.00%"
-      },
-      {
         "ticker": "NFLX",
-        "change": "-1.56%"
-      },
-      {
-        "ticker": "ABT",
         "change": "-1.86%"
       },
       {
-        "ticker": "SYK",
-        "change": "-1.43%"
+        "ticker": "INTU",
+        "change": "-2.66%"
+      },
+      {
+        "ticker": "PG",
+        "change": "-2.37%"
+      },
+      {
+        "ticker": "BX",
+        "change": "-2.33%"
+      },
+      {
+        "ticker": "BLK",
+        "change": "-2.23%"
+      },
+      {
+        "ticker": "ADP",
+        "change": "-2.22%"
+      },
+      {
+        "ticker": "T",
+        "change": "-1.93%"
+      },
+      {
+        "ticker": "MA",
+        "change": "-1.84%"
+      },
+      {
+        "ticker": "V",
+        "change": "-1.59%"
+      },
+      {
+        "ticker": "GE",
+        "change": "-1.23%"
       }
     ],
-    "generated_at": "2026-03-10T16:23:22.748829Z",
+    "generated_at": "2026-03-11T15:47:19.753615Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-03-10T16:23:22.748829Z"
+  "last_updated": "2026-03-11T15:47:19.753615Z"
 }
