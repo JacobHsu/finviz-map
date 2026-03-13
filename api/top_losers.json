@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "GE",
-        "change": "-5.86%"
+        "ticker": "META",
+        "change": "-3.20%"
       },
       {
-        "ticker": "INTC",
-        "change": "-4.41%"
+        "ticker": "ADBE",
+        "change": "-2.81%"
       },
       {
-        "ticker": "MU",
-        "change": "-4.11%"
+        "ticker": "AVGO",
+        "change": "-2.91%"
       },
       {
-        "ticker": "AMAT",
-        "change": "-3.81%"
+        "ticker": "ORCL",
+        "change": "-2.48%"
       },
       {
-        "ticker": "ADI",
-        "change": "-3.66%"
+        "ticker": "PLTR",
+        "change": "-2.47%"
       },
       {
-        "ticker": "MS",
-        "change": "-4.02%"
+        "ticker": "GEV",
+        "change": "-2.73%"
       },
       {
-        "ticker": "C",
-        "change": "-3.46%"
+        "ticker": "CRM",
+        "change": "-3.04%"
       },
       {
         "ticker": "AMD",
-        "change": "-3.42%"
+        "change": "-1.52%"
       },
       {
-        "ticker": "LRCX",
-        "change": "-3.75%"
+        "ticker": "GE",
+        "change": "-1.24%"
       },
       {
-        "ticker": "KLAC",
-        "change": "-2.69%"
+        "ticker": "CDNS",
+        "change": "-1.60%"
       }
     ],
-    "generated_at": "2026-03-12T15:48:31.355415Z",
+    "generated_at": "2026-03-13T15:46:04.934677Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-03-12T15:48:31.355415Z"
+  "last_updated": "2026-03-13T15:46:04.934677Z"
 }
