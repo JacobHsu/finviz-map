@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "META",
-        "change": "-3.20%"
+        "ticker": "SNPS",
+        "change": "-3.42%"
       },
       {
-        "ticker": "ADBE",
-        "change": "-2.81%"
+        "ticker": "TMUS",
+        "change": "-2.33%"
       },
       {
-        "ticker": "AVGO",
-        "change": "-2.91%"
+        "ticker": "CRWD",
+        "change": "-2.50%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-2.48%"
+        "ticker": "FNT",
+        "change": "-2.54%"
       },
       {
-        "ticker": "PLTR",
-        "change": "-2.47%"
+        "ticker": "COST",
+        "change": "-0.98%"
       },
       {
-        "ticker": "GEV",
-        "change": "-2.73%"
+        "ticker": "WMT",
+        "change": "-0.92%"
       },
       {
-        "ticker": "CRM",
-        "change": "-3.04%"
+        "ticker": "MRK",
+        "change": "-0.17%"
       },
       {
-        "ticker": "AMD",
-        "change": "-1.52%"
+        "ticker": "LLY",
+        "change": "-0.17%"
       },
       {
-        "ticker": "GE",
-        "change": "-1.24%"
+        "ticker": "VZ",
+        "change": "-0.69%"
       },
       {
-        "ticker": "CDNS",
-        "change": "-1.60%"
+        "ticker": "T",
+        "change": "-0.92%"
       }
     ],
-    "generated_at": "2026-03-13T15:46:04.934677Z",
+    "generated_at": "2026-03-16T15:51:09.787141Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-03-13T15:46:04.934677Z"
+  "last_updated": "2026-03-16T15:51:09.787141Z"
 }
