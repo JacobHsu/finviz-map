@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "SNPS",
-        "change": "-3.42%"
-      },
-      {
-        "ticker": "TMUS",
-        "change": "-2.33%"
-      },
-      {
-        "ticker": "CRWD",
-        "change": "-2.50%"
-      },
-      {
-        "ticker": "FNT",
-        "change": "-2.54%"
-      },
-      {
-        "ticker": "COST",
-        "change": "-0.98%"
-      },
-      {
-        "ticker": "WMT",
-        "change": "-0.92%"
-      },
-      {
-        "ticker": "MRK",
-        "change": "-0.17%"
-      },
-      {
         "ticker": "LLY",
-        "change": "-0.17%"
+        "change": "-5.50%"
       },
       {
-        "ticker": "VZ",
-        "change": "-0.69%"
+        "ticker": "INTC",
+        "change": "-3.45%"
       },
       {
-        "ticker": "T",
-        "change": "-0.92%"
+        "ticker": "BA",
+        "change": "-1.85%"
+      },
+      {
+        "ticker": "RTX",
+        "change": "-1.49%"
+      },
+      {
+        "ticker": "AMGN",
+        "change": "-1.54%"
+      },
+      {
+        "ticker": "AVGO",
+        "change": "-2.17%"
+      },
+      {
+        "ticker": "GE",
+        "change": "-1.20%"
+      },
+      {
+        "ticker": "JNJ",
+        "change": "-0.82%"
+      },
+      {
+        "ticker": "ORCL",
+        "change": "-0.86%"
+      },
+      {
+        "ticker": "META",
+        "change": "-0.35%"
       }
     ],
-    "generated_at": "2026-03-16T15:51:09.787141Z",
+    "generated_at": "2026-03-17T16:32:44.390320Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-03-16T15:51:09.787141Z"
+  "last_updated": "2026-03-17T16:32:44.390320Z"
 }
