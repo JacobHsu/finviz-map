@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "PM",
-        "change": "-3.19%"
+        "ticker": "MU",
+        "change": "-4.62%"
       },
       {
-        "ticker": "MRK",
-        "change": "-3.95%"
-      },
-      {
-        "ticker": "PG",
-        "change": "-2.56%"
-      },
-      {
-        "ticker": "MA",
-        "change": "-2.71%"
-      },
-      {
-        "ticker": "TMUS",
-        "change": "-2.46%"
-      },
-      {
-        "ticker": "INTU",
-        "change": "-2.40%"
+        "ticker": "GE",
+        "change": "-4.51%"
       },
       {
         "ticker": "BA",
-        "change": "-1.92%"
+        "change": "-3.75%"
       },
       {
-        "ticker": "GILD",
-        "change": "-1.85%"
+        "ticker": "RTX",
+        "change": "-3.18%"
+      },
+      {
+        "ticker": "NFLX",
+        "change": "-2.33%"
+      },
+      {
+        "ticker": "MCHP",
+        "change": "-2.46%"
+      },
+      {
+        "ticker": "TSLA",
+        "change": "-2.53%"
       },
       {
         "ticker": "WMT",
-        "change": "-1.74%"
+        "change": "-2.03%"
       },
       {
-        "ticker": "HD",
-        "change": "-1.64%"
+        "ticker": "CAT",
+        "change": "-2.01%"
+      },
+      {
+        "ticker": "PM",
+        "change": "-1.98%"
       }
     ],
-    "generated_at": "2026-03-18T15:54:27.490977Z",
+    "generated_at": "2026-03-19T15:47:41.548400Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-03-18T15:54:27.490977Z"
+  "last_updated": "2026-03-19T15:47:41.548400Z"
 }
