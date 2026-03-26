@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "MU",
-        "change": "-4.56%"
+        "ticker": "META",
+        "change": "-6.78%"
       },
       {
-        "ticker": "SNOW",
-        "change": "-5.18%"
-      },
-      {
-        "ticker": "WDC",
-        "change": "-3.89%"
+        "ticker": "AMD",
+        "change": "-6.19%"
       },
       {
         "ticker": "LRCX",
-        "change": "-2.59%"
+        "change": "-5.35%"
       },
       {
-        "ticker": "NOW",
-        "change": "-2.34%"
+        "ticker": "INTC",
+        "change": "-4.83%"
       },
       {
-        "ticker": "INTU",
-        "change": "-2.18%"
+        "ticker": "MU",
+        "change": "-4.72%"
       },
       {
-        "ticker": "CDNS",
-        "change": "-1.63%"
+        "ticker": "WDC",
+        "change": "-4.67%"
       },
       {
-        "ticker": "ADBE",
-        "change": "-0.62%"
+        "ticker": "KLAC",
+        "change": "-4.37%"
       },
       {
-        "ticker": "PANW",
-        "change": "-0.55%"
+        "ticker": "PLTR",
+        "change": "-3.43%"
       },
       {
-        "ticker": "GOOG",
-        "change": "-0.08%"
+        "ticker": "GE",
+        "change": "-3.63%"
+      },
+      {
+        "ticker": "NVDA",
+        "change": "-2.66%"
       }
     ],
-    "generated_at": "2026-03-25T15:52:57.473490Z",
+    "generated_at": "2026-03-26T16:41:41.073404Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-03-25T15:52:57.473490Z"
+  "last_updated": "2026-03-26T16:41:41.073404Z"
 }
