@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "PG",
-        "change": "-1.20%"
+        "ticker": "PM",
+        "change": "-5.71%"
       },
       {
-        "ticker": "DELL",
-        "change": "-1.19%"
+        "ticker": "XOM",
+        "change": "-4.68%"
       },
       {
-        "ticker": "CSCO",
-        "change": "-0.59%"
+        "ticker": "CVX",
+        "change": "-4.23%"
+      },
+      {
+        "ticker": "EOG",
+        "change": "-3.23%"
       },
       {
         "ticker": "T",
-        "change": "-0.71%"
+        "change": "-2.42%"
       },
       {
         "ticker": "VZ",
-        "change": "-0.91%"
+        "change": "-1.84%"
       },
       {
-        "ticker": "TMUS",
-        "change": "-2.02%"
+        "ticker": "INTU",
+        "change": "-1.48%"
       },
       {
-        "ticker": "MU",
-        "change": "-0.32%"
+        "ticker": "ABT",
+        "change": "-1.26%"
       },
       {
-        "ticker": "COST",
-        "change": "-0.29%"
+        "ticker": "ABBV",
+        "change": "-1.26%"
       },
       {
-        "ticker": "KO",
-        "change": "-0.63%"
-      },
-      {
-        "ticker": "PEP",
-        "change": "-0.67%"
+        "ticker": "NFLX",
+        "change": "-1.17%"
       }
     ],
-    "generated_at": "2026-03-31T15:53:20.367632Z",
+    "generated_at": "2026-04-01T15:56:42.432413Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-03-31T15:53:20.367632Z"
+  "last_updated": "2026-04-01T15:56:42.432413Z"
 }
