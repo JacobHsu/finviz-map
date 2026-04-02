@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "PM",
-        "change": "-5.71%"
+        "ticker": "TSLA",
+        "change": "-4.09%"
       },
       {
-        "ticker": "XOM",
-        "change": "-4.68%"
+        "ticker": "GE",
+        "change": "-2.47%"
       },
       {
-        "ticker": "CVX",
-        "change": "-4.23%"
+        "ticker": "BMY",
+        "change": "-1.42%"
       },
       {
-        "ticker": "EOG",
-        "change": "-3.23%"
-      },
-      {
-        "ticker": "T",
-        "change": "-2.42%"
-      },
-      {
-        "ticker": "VZ",
-        "change": "-1.84%"
-      },
-      {
-        "ticker": "INTU",
+        "ticker": "LLY",
         "change": "-1.48%"
       },
       {
-        "ticker": "ABT",
-        "change": "-1.26%"
+        "ticker": "META",
+        "change": "-1.14%"
       },
       {
-        "ticker": "ABBV",
-        "change": "-1.26%"
+        "ticker": "MU",
+        "change": "-1.20%"
       },
       {
-        "ticker": "NFLX",
-        "change": "-1.17%"
+        "ticker": "LRCX",
+        "change": "-1.67%"
+      },
+      {
+        "ticker": "AMGN",
+        "change": "-0.89%"
+      },
+      {
+        "ticker": "RTX",
+        "change": "-0.81%"
+      },
+      {
+        "ticker": "QCOM",
+        "change": "-1.00%"
       }
     ],
-    "generated_at": "2026-04-01T15:56:42.432413Z",
+    "generated_at": "2026-04-02T15:48:33.626555Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-04-01T15:56:42.432413Z"
+  "last_updated": "2026-04-02T15:48:33.626555Z"
 }
