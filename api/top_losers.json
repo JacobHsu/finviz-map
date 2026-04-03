@@ -4,48 +4,48 @@
     "top_losers": [
       {
         "ticker": "TSLA",
-        "change": "-4.09%"
+        "change": "-5.42%"
       },
       {
         "ticker": "GE",
-        "change": "-2.47%"
+        "change": "-3.94%"
       },
       {
-        "ticker": "BMY",
-        "change": "-1.42%"
+        "ticker": "ABBV",
+        "change": "-2.86%"
       },
       {
-        "ticker": "LLY",
-        "change": "-1.48%"
+        "ticker": "CAT",
+        "change": "-1.79%"
       },
       {
-        "ticker": "META",
-        "change": "-1.14%"
+        "ticker": "NOW",
+        "change": "-1.96%"
       },
       {
-        "ticker": "MU",
-        "change": "-1.20%"
+        "ticker": "AMAT",
+        "change": "-1.51%"
       },
       {
         "ticker": "LRCX",
-        "change": "-1.67%"
+        "change": "-1.61%"
       },
       {
-        "ticker": "AMGN",
-        "change": "-0.89%"
+        "ticker": "LLY",
+        "change": "-1.98%"
       },
       {
         "ticker": "RTX",
-        "change": "-0.81%"
+        "change": "-0.77%"
       },
       {
-        "ticker": "QCOM",
-        "change": "-1.00%"
+        "ticker": "META",
+        "change": "-0.82%"
       }
     ],
-    "generated_at": "2026-04-02T15:48:33.626555Z",
+    "generated_at": "2026-04-03T15:45:08.413212Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-04-02T15:48:33.626555Z"
+  "last_updated": "2026-04-03T15:45:08.413212Z"
 }
