@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
+        "ticker": "PANW",
+        "change": "-2.10%"
+      },
+      {
         "ticker": "TSLA",
-        "change": "-5.42%"
+        "change": "-1.99%"
       },
       {
-        "ticker": "GE",
-        "change": "-3.94%"
+        "ticker": "INTU",
+        "change": "-1.76%"
       },
       {
-        "ticker": "ABBV",
-        "change": "-2.86%"
+        "ticker": "AMGN",
+        "change": "-1.17%"
       },
       {
-        "ticker": "CAT",
-        "change": "-1.79%"
+        "ticker": "CRM",
+        "change": "-1.23%"
       },
       {
-        "ticker": "NOW",
-        "change": "-1.96%"
+        "ticker": "DE",
+        "change": "-1.24%"
       },
       {
-        "ticker": "AMAT",
-        "change": "-1.51%"
+        "ticker": "ORCL",
+        "change": "-1.39%"
       },
       {
-        "ticker": "LRCX",
-        "change": "-1.61%"
+        "ticker": "IBM",
+        "change": "-1.33%"
       },
       {
         "ticker": "LLY",
-        "change": "-1.98%"
+        "change": "-1.08%"
       },
       {
-        "ticker": "RTX",
-        "change": "-0.77%"
-      },
-      {
-        "ticker": "META",
-        "change": "-0.82%"
+        "ticker": "CVX",
+        "change": "-0.74%"
       }
     ],
-    "generated_at": "2026-04-03T15:45:08.413212Z",
+    "generated_at": "2026-04-06T15:46:25.925837Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-04-03T15:45:08.413212Z"
+  "last_updated": "2026-04-06T15:46:25.925837Z"
 }
