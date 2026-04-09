@@ -3,45 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "XOM",
-        "change": "-5.54%"
-      },
-      {
-        "ticker": "CVX",
-        "change": "-5.30%"
-      },
-      {
-        "ticker": "VZ",
-        "change": "-2.50%"
-      },
-      {
-        "ticker": "T",
-        "change": "-2.41%"
-      },
-      {
         "ticker": "PLTR",
-        "change": "-2.07%"
-      },
-      {
-        "ticker": "INTU",
-        "change": "-1.96%"
+        "change": "-6.66%"
       },
       {
         "ticker": "NOW",
-        "change": "-0.73%"
+        "change": "-6.69%"
       },
       {
-        "ticker": "UNH",
-        "change": "-0.85%"
+        "ticker": "PANW",
+        "change": "-3.73%"
       },
       {
-        "ticker": "TSLA",
-        "change": "-0.30%"
+        "ticker": "ORCL",
+        "change": "-2.95%"
+      },
+      {
+        "ticker": "VZ",
+        "change": "-1.41%"
+      },
+      {
+        "ticker": "MA",
+        "change": "-1.40%"
+      },
+      {
+        "ticker": "RTX",
+        "change": "-1.37%"
+      },
+      {
+        "ticker": "MSFT",
+        "change": "-1.15%"
+      },
+      {
+        "ticker": "ABT",
+        "change": "-1.28%"
+      },
+      {
+        "ticker": "TMUS",
+        "change": "-1.41%"
       }
     ],
-    "generated_at": "2026-04-08T16:00:30.349798Z",
+    "generated_at": "2026-04-09T16:14:23.375041Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-04-08T16:00:30.349798Z"
+  "last_updated": "2026-04-09T16:14:23.375041Z"
 }
