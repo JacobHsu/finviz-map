@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "WFC",
-        "change": "-4.95%"
-      },
-      {
-        "ticker": "INTC",
-        "change": "-4.15%"
-      },
-      {
-        "ticker": "CVX",
-        "change": "-2.67%"
-      },
-      {
-        "ticker": "PM",
-        "change": "-2.83%"
-      },
-      {
-        "ticker": "XOM",
-        "change": "-2.48%"
+        "ticker": "KLAC",
+        "change": "-4.67%"
       },
       {
         "ticker": "SNPS",
-        "change": "-1.20%"
+        "change": "-4.15%"
       },
       {
-        "ticker": "CRWD",
-        "change": "-1.30%"
+        "ticker": "DELL",
+        "change": "-3.17%"
       },
       {
-        "ticker": "TSLA",
-        "change": "-0.39%"
+        "ticker": "LRCX",
+        "change": "-3.69%"
       },
       {
-        "ticker": "AAPL",
-        "change": "-0.39%"
+        "ticker": "CAT",
+        "change": "-3.62%"
       },
       {
-        "ticker": "AVGO",
-        "change": "-0.10%"
+        "ticker": "MU",
+        "change": "-3.66%"
+      },
+      {
+        "ticker": "RTX",
+        "change": "-2.42%"
+      },
+      {
+        "ticker": "ETN",
+        "change": "-2.53%"
+      },
+      {
+        "ticker": "AMAT",
+        "change": "-2.68%"
+      },
+      {
+        "ticker": "TXN",
+        "change": "-2.27%"
       }
     ],
-    "generated_at": "2026-04-14T15:59:29.552750Z",
+    "generated_at": "2026-04-15T15:53:22.617500Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-04-14T15:59:29.552750Z"
+  "last_updated": "2026-04-15T15:53:22.617500Z"
 }
