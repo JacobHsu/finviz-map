@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "KLAC",
-        "change": "-4.67%"
+        "ticker": "BA",
+        "change": "-2.74%"
       },
       {
-        "ticker": "SNPS",
-        "change": "-4.15%"
+        "ticker": "GE",
+        "change": "-2.59%"
       },
       {
-        "ticker": "DELL",
-        "change": "-3.17%"
+        "ticker": "MS",
+        "change": "-1.88%"
       },
       {
-        "ticker": "LRCX",
-        "change": "-3.69%"
+        "ticker": "JNJ",
+        "change": "-1.82%"
       },
       {
-        "ticker": "CAT",
-        "change": "-3.62%"
-      },
-      {
-        "ticker": "MU",
-        "change": "-3.66%"
+        "ticker": "LLY",
+        "change": "-1.72%"
       },
       {
         "ticker": "RTX",
-        "change": "-2.42%"
+        "change": "-1.22%"
       },
       {
-        "ticker": "ETN",
-        "change": "-2.53%"
+        "ticker": "AAPL",
+        "change": "-1.25%"
       },
       {
-        "ticker": "AMAT",
-        "change": "-2.68%"
+        "ticker": "TSLA",
+        "change": "-0.86%"
       },
       {
-        "ticker": "TXN",
-        "change": "-2.27%"
+        "ticker": "GEV",
+        "change": "-0.75%"
+      },
+      {
+        "ticker": "LRCX",
+        "change": "-0.69%"
       }
     ],
-    "generated_at": "2026-04-15T15:53:22.617500Z",
+    "generated_at": "2026-04-16T16:03:29.100749Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-04-15T15:53:22.617500Z"
+  "last_updated": "2026-04-16T16:03:29.100749Z"
 }
