@@ -3,41 +3,49 @@
   "data": {
     "top_losers": [
       {
+        "ticker": "INTC",
+        "change": "-3.83%"
+      },
+      {
         "ticker": "NFLX",
-        "change": "-9.70%"
+        "change": "-3.12%"
       },
       {
-        "ticker": "XOM",
-        "change": "-5.11%"
+        "ticker": "MU",
+        "change": "-2.87%"
       },
       {
-        "ticker": "CVX",
-        "change": "-4.22%"
+        "ticker": "TSLA",
+        "change": "-2.22%"
       },
       {
-        "ticker": "SNDK",
-        "change": "-1.76%"
+        "ticker": "AVGO",
+        "change": "-2.08%"
       },
       {
-        "ticker": "LMT",
-        "change": "-1.25%"
-      },
-      {
-        "ticker": "VZ",
-        "change": "-0.34%"
-      },
-      {
-        "ticker": "PEP",
-        "change": "-0.52%"
+        "ticker": "META",
+        "change": "-2.04%"
       },
       {
         "ticker": "AMD",
-        "change": "-0.15%"
+        "change": "-1.23%"
+      },
+      {
+        "ticker": "NVDA",
+        "change": "-1.25%"
+      },
+      {
+        "ticker": "AMZN",
+        "change": "-1.58%"
+      },
+      {
+        "ticker": "MSFT",
+        "change": "-1.24%"
       }
     ],
-    "generated_at": "2026-04-17T15:48:32.335918Z",
+    "generated_at": "2026-04-20T15:57:10.905395Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-04-17T15:48:32.335918Z"
+  "last_updated": "2026-04-20T15:57:10.905395Z"
 }
