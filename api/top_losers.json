@@ -4,48 +4,48 @@
     "top_losers": [
       {
         "ticker": "GE",
-        "change": "-5.96%"
+        "change": "-5.56%"
       },
       {
         "ticker": "RTX",
-        "change": "-4.25%"
+        "change": "-3.67%"
       },
       {
-        "ticker": "MRK",
-        "change": "-4.00%"
+        "ticker": "CDNS",
+        "change": "-1.10%"
       },
       {
-        "ticker": "LLY",
-        "change": "-2.64%"
+        "ticker": "ACN",
+        "change": "-1.70%"
+      },
+      {
+        "ticker": "TMUS",
+        "change": "-1.64%"
       },
       {
         "ticker": "JNJ",
-        "change": "-2.41%"
+        "change": "-0.76%"
       },
       {
-        "ticker": "GILD",
-        "change": "-2.40%"
+        "ticker": "C",
+        "change": "-0.81%"
       },
       {
-        "ticker": "AAPL",
-        "change": "-2.07%"
+        "ticker": "HD",
+        "change": "-0.86%"
       },
       {
-        "ticker": "ADI",
-        "change": "-1.59%"
+        "ticker": "VZ",
+        "change": "-0.97%"
       },
       {
-        "ticker": "NFLX",
-        "change": "-1.64%"
-      },
-      {
-        "ticker": "AMGN",
-        "change": "-1.64%"
+        "ticker": "HON",
+        "change": "-1.23%"
       }
     ],
-    "generated_at": "2026-04-21T15:57:52.618304Z",
+    "generated_at": "2026-04-22T15:56:10.921559Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-04-21T15:57:52.618304Z"
+  "last_updated": "2026-04-22T15:56:10.921559Z"
 }
