@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "AMD",
-        "change": "-4.05%"
+        "ticker": "SNDK",
+        "change": "-6.72%"
       },
       {
-        "ticker": "GEV",
-        "change": "-3.32%"
-      },
-      {
-        "ticker": "AMAT",
-        "change": "-3.01%"
-      },
-      {
-        "ticker": "TSLA",
-        "change": "-2.47%"
-      },
-      {
-        "ticker": "KLAC",
-        "change": "-2.41%"
-      },
-      {
-        "ticker": "LRCX",
-        "change": "-2.17%"
-      },
-      {
-        "ticker": "ADI",
-        "change": "-2.34%"
-      },
-      {
-        "ticker": "TXN",
-        "change": "-1.93%"
-      },
-      {
-        "ticker": "AAPL",
-        "change": "-1.44%"
+        "ticker": "MU",
+        "change": "-5.67%"
       },
       {
         "ticker": "AVGO",
-        "change": "-1.33%"
+        "change": "-5.46%"
+      },
+      {
+        "ticker": "AMAT",
+        "change": "-5.71%"
+      },
+      {
+        "ticker": "GEV",
+        "change": "-4.98%"
+      },
+      {
+        "ticker": "LRCX",
+        "change": "-4.95%"
+      },
+      {
+        "ticker": "AMD",
+        "change": "-4.46%"
+      },
+      {
+        "ticker": "ORCL",
+        "change": "-4.05%"
+      },
+      {
+        "ticker": "NVDA",
+        "change": "-3.25%"
+      },
+      {
+        "ticker": "KLAC",
+        "change": "-3.78%"
       }
     ],
-    "generated_at": "2026-04-27T16:03:21.060298Z",
+    "generated_at": "2026-04-28T16:14:03.589197Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-04-27T16:03:21.060298Z"
+  "last_updated": "2026-04-28T16:14:03.589197Z"
 }
