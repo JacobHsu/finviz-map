@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "AMGN",
-        "change": "-5.43%"
+        "ticker": "XOM",
+        "change": "-4.91%"
       },
       {
-        "ticker": "STX",
-        "change": "-5.62%"
+        "ticker": "CVX",
+        "change": "-4.59%"
       },
       {
-        "ticker": "QCOM",
-        "change": "-3.86%"
+        "ticker": "ANET",
+        "change": "-3.05%"
       },
       {
-        "ticker": "TMO",
-        "change": "-3.90%"
+        "ticker": "CSCO",
+        "change": "-2.90%"
       },
       {
-        "ticker": "DE",
-        "change": "-2.21%"
+        "ticker": "NOW",
+        "change": "-2.67%"
       },
       {
-        "ticker": "ETN",
-        "change": "-2.08%"
+        "ticker": "CRM",
+        "change": "-2.42%"
       },
       {
-        "ticker": "WDC",
-        "change": "-2.31%"
+        "ticker": "COST",
+        "change": "-1.97%"
       },
       {
-        "ticker": "KLAC",
-        "change": "-1.29%"
+        "ticker": "PLTR",
+        "change": "-1.90%"
       },
       {
-        "ticker": "RTX",
-        "change": "-1.07%"
+        "ticker": "CRWD",
+        "change": "-2.24%"
       },
       {
-        "ticker": "SYK",
-        "change": "-1.46%"
+        "ticker": "AVGO",
+        "change": "-1.08%"
       }
     ],
-    "generated_at": "2026-05-01T15:48:20.067584Z",
+    "generated_at": "2026-05-06T16:10:48.359185Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-05-01T15:48:20.067584Z"
+  "last_updated": "2026-05-06T16:10:48.359185Z"
 }
