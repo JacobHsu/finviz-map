@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "GEV",
-        "change": "-4.83%"
-      },
-      {
-        "ticker": "AMAT",
-        "change": "-4.99%"
-      },
-      {
-        "ticker": "LRCX",
-        "change": "-4.51%"
-      },
-      {
-        "ticker": "ETN",
-        "change": "-4.00%"
-      },
-      {
-        "ticker": "AMD",
-        "change": "-4.05%"
-      },
-      {
-        "ticker": "ANET",
-        "change": "-4.03%"
-      },
-      {
-        "ticker": "CAT",
-        "change": "-2.87%"
-      },
-      {
-        "ticker": "KLAC",
+        "ticker": "INTU",
         "change": "-3.77%"
       },
       {
-        "ticker": "MU",
-        "change": "-3.59%"
+        "ticker": "CRM",
+        "change": "-3.98%"
       },
       {
-        "ticker": "TXN",
-        "change": "-2.10%"
+        "ticker": "NOW",
+        "change": "-3.34%"
+      },
+      {
+        "ticker": "CMCSA",
+        "change": "-3.55%"
+      },
+      {
+        "ticker": "BAC",
+        "change": "-3.11%"
+      },
+      {
+        "ticker": "LLY",
+        "change": "-2.59%"
+      },
+      {
+        "ticker": "GILD",
+        "change": "-2.44%"
+      },
+      {
+        "ticker": "TMO",
+        "change": "-2.27%"
+      },
+      {
+        "ticker": "META",
+        "change": "-1.51%"
+      },
+      {
+        "ticker": "MSFT",
+        "change": "-1.21%"
       }
     ],
-    "generated_at": "2026-05-07T16:28:15.887921Z",
+    "generated_at": "2026-05-08T16:13:19.895262Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-05-07T16:28:15.887921Z"
+  "last_updated": "2026-05-08T16:13:19.895262Z"
 }
