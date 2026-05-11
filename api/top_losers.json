@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "INTU",
-        "change": "-3.77%"
+        "ticker": "WFC",
+        "change": "-2.99%"
       },
       {
-        "ticker": "CRM",
-        "change": "-3.98%"
+        "ticker": "PG",
+        "change": "-2.77%"
       },
       {
-        "ticker": "NOW",
-        "change": "-3.34%"
+        "ticker": "PM",
+        "change": "-2.53%"
       },
       {
-        "ticker": "CMCSA",
-        "change": "-3.55%"
-      },
-      {
-        "ticker": "BAC",
-        "change": "-3.11%"
-      },
-      {
-        "ticker": "LLY",
-        "change": "-2.59%"
-      },
-      {
-        "ticker": "GILD",
-        "change": "-2.44%"
+        "ticker": "WMT",
+        "change": "-2.57%"
       },
       {
         "ticker": "TMO",
-        "change": "-2.27%"
+        "change": "-2.45%"
+      },
+      {
+        "ticker": "IBM",
+        "change": "-2.49%"
       },
       {
         "ticker": "META",
-        "change": "-1.51%"
+        "change": "-1.16%"
+      },
+      {
+        "ticker": "NFLX",
+        "change": "-1.18%"
       },
       {
         "ticker": "MSFT",
-        "change": "-1.21%"
+        "change": "-1.11%"
+      },
+      {
+        "ticker": "GOOGL",
+        "change": "-1.73%"
       }
     ],
-    "generated_at": "2026-05-08T16:13:19.895262Z",
+    "generated_at": "2026-05-11T16:21:32.568753Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-05-08T16:13:19.895262Z"
+  "last_updated": "2026-05-11T16:21:32.568753Z"
 }
