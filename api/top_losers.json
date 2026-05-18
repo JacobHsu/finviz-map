@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "INTC",
-        "change": "-6.17%"
+        "ticker": "STX",
+        "change": "-7.48%"
+      },
+      {
+        "ticker": "SNPS",
+        "change": "-6.85%"
+      },
+      {
+        "ticker": "TER",
+        "change": "-5.26%"
       },
       {
         "ticker": "MU",
-        "change": "-5.37%"
+        "change": "-4.55%"
       },
       {
-        "ticker": "LRCX",
-        "change": "-4.45%"
+        "ticker": "ORCL",
+        "change": "-3.73%"
       },
       {
-        "ticker": "TSLA",
-        "change": "-4.18%"
-      },
-      {
-        "ticker": "AMD",
-        "change": "-3.90%"
+        "ticker": "INTC",
+        "change": "-2.79%"
       },
       {
         "ticker": "CAT",
-        "change": "-3.97%"
+        "change": "-2.47%"
       },
       {
-        "ticker": "NVDA",
-        "change": "-3.28%"
+        "ticker": "KLAC",
+        "change": "-2.41%"
       },
       {
-        "ticker": "AVGO",
-        "change": "-3.14%"
+        "ticker": "TSLA",
+        "change": "-1.91%"
       },
       {
-        "ticker": "DE",
-        "change": "-3.08%"
-      },
-      {
-        "ticker": "DELL",
-        "change": "-3.04%"
+        "ticker": "AAPL",
+        "change": "-1.24%"
       }
     ],
-    "generated_at": "2026-05-15T16:12:16.416006Z",
+    "generated_at": "2026-05-18T16:36:02.200293Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-05-15T16:12:16.416006Z"
+  "last_updated": "2026-05-18T16:36:02.200293Z"
 }
