@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "STX",
-        "change": "-7.48%"
+        "ticker": "CVNA",
+        "change": "-5.29%"
       },
       {
-        "ticker": "SNPS",
-        "change": "-6.85%"
+        "ticker": "QCOM",
+        "change": "-3.81%"
       },
       {
-        "ticker": "TER",
-        "change": "-5.26%"
-      },
-      {
-        "ticker": "MU",
-        "change": "-4.55%"
-      },
-      {
-        "ticker": "ORCL",
-        "change": "-3.73%"
-      },
-      {
-        "ticker": "INTC",
-        "change": "-2.79%"
-      },
-      {
-        "ticker": "CAT",
-        "change": "-2.47%"
-      },
-      {
-        "ticker": "KLAC",
-        "change": "-2.41%"
+        "ticker": "AMZN",
+        "change": "-3.32%"
       },
       {
         "ticker": "TSLA",
-        "change": "-1.91%"
+        "change": "-3.18%"
       },
       {
-        "ticker": "AAPL",
-        "change": "-1.24%"
+        "ticker": "GOOGL",
+        "change": "-2.39%"
+      },
+      {
+        "ticker": "CSCO",
+        "change": "-2.77%"
+      },
+      {
+        "ticker": "AMD",
+        "change": "-2.26%"
+      },
+      {
+        "ticker": "AVGO",
+        "change": "-2.23%"
+      },
+      {
+        "ticker": "GLW",
+        "change": "-2.77%"
+      },
+      {
+        "ticker": "ORCL",
+        "change": "-1.81%"
       }
     ],
-    "generated_at": "2026-05-18T16:36:02.200293Z",
+    "generated_at": "2026-05-19T16:34:30.848106Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-05-18T16:36:02.200293Z"
+  "last_updated": "2026-05-19T16:34:30.848106Z"
 }
