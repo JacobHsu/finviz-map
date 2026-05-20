@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "CVNA",
-        "change": "-5.29%"
+        "ticker": "ADI",
+        "change": "-6.98%"
       },
       {
-        "ticker": "QCOM",
-        "change": "-3.81%"
+        "ticker": "XOM",
+        "change": "-2.33%"
       },
       {
-        "ticker": "AMZN",
-        "change": "-3.32%"
+        "ticker": "CVX",
+        "change": "-1.94%"
       },
       {
-        "ticker": "TSLA",
-        "change": "-3.18%"
+        "ticker": "TMUS",
+        "change": "-1.69%"
+      },
+      {
+        "ticker": "LLY",
+        "change": "-1.56%"
+      },
+      {
+        "ticker": "NFLX",
+        "change": "-1.42%"
       },
       {
         "ticker": "GOOGL",
-        "change": "-2.39%"
+        "change": "-0.67%"
       },
       {
-        "ticker": "CSCO",
-        "change": "-2.77%"
+        "ticker": "QCOM",
+        "change": "-2.24%"
       },
       {
-        "ticker": "AMD",
-        "change": "-2.26%"
+        "ticker": "DIS",
+        "change": "-1.89%"
       },
       {
-        "ticker": "AVGO",
-        "change": "-2.23%"
-      },
-      {
-        "ticker": "GLW",
-        "change": "-2.77%"
-      },
-      {
-        "ticker": "ORCL",
-        "change": "-1.81%"
+        "ticker": "MA",
+        "change": "-0.96%"
       }
     ],
-    "generated_at": "2026-05-19T16:34:30.848106Z",
+    "generated_at": "2026-05-20T16:36:24.909852Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-05-19T16:34:30.848106Z"
+  "last_updated": "2026-05-20T16:36:24.909852Z"
 }
