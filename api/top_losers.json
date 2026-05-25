@@ -4,48 +4,48 @@
     "top_losers": [
       {
         "ticker": "COST",
-        "change": "-1.85%"
+        "change": "-2.11%"
       },
       {
-        "ticker": "SBUX",
-        "change": "-1.67%"
+        "ticker": "UBER",
+        "change": "-2.43%"
       },
       {
-        "ticker": "WMT",
-        "change": "-1.03%"
+        "ticker": "SNDK",
+        "change": "-4.12%"
+      },
+      {
+        "ticker": "APO",
+        "change": "-1.63%"
       },
       {
         "ticker": "NVDA",
-        "change": "-0.97%"
+        "change": "-1.90%"
       },
       {
-        "ticker": "XOM",
-        "change": "-0.71%"
-      },
-      {
-        "ticker": "ANET",
-        "change": "-0.47%"
-      },
-      {
-        "ticker": "PLTR",
-        "change": "-0.47%"
-      },
-      {
-        "ticker": "NFLX",
-        "change": "-0.53%"
+        "ticker": "MU",
+        "change": "-1.46%"
       },
       {
         "ticker": "GOOGL",
-        "change": "-0.21%"
+        "change": "-1.21%"
+      },
+      {
+        "ticker": "WMT",
+        "change": "-0.88%"
       },
       {
         "ticker": "V",
-        "change": "-0.31%"
+        "change": "-0.68%"
+      },
+      {
+        "ticker": "NFLX",
+        "change": "-0.78%"
       }
     ],
-    "generated_at": "2026-05-22T16:17:59.072762Z",
+    "generated_at": "2026-05-25T16:17:16.545988Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-05-22T16:17:59.072762Z"
+  "last_updated": "2026-05-25T16:17:16.545988Z"
 }
