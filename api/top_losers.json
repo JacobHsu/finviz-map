@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "CRM",
-        "change": "-7.36%"
+        "ticker": "SNPS",
+        "change": "-8.47%"
       },
       {
-        "ticker": "FTNT",
-        "change": "-4.00%"
+        "ticker": "V",
+        "change": "-1.85%"
+      },
+      {
+        "ticker": "MA",
+        "change": "-1.38%"
+      },
+      {
+        "ticker": "BMY",
+        "change": "-1.69%"
+      },
+      {
+        "ticker": "UNP",
+        "change": "-1.47%"
+      },
+      {
+        "ticker": "NFLX",
+        "change": "-1.14%"
       },
       {
         "ticker": "INTC",
-        "change": "-3.85%"
-      },
-      {
-        "ticker": "CRWD",
-        "change": "-3.69%"
+        "change": "-1.03%"
       },
       {
         "ticker": "JPM",
-        "change": "-2.81%"
-      },
-      {
-        "ticker": "PANW",
-        "change": "-2.17%"
-      },
-      {
-        "ticker": "PLTR",
-        "change": "-2.14%"
-      },
-      {
-        "ticker": "TXN",
-        "change": "-2.37%"
+        "change": "-0.81%"
       },
       {
         "ticker": "BAC",
-        "change": "-2.08%"
+        "change": "-0.71%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-2.04%"
+        "ticker": "COF",
+        "change": "-1.20%"
       }
     ],
-    "generated_at": "2026-05-27T16:44:39.911838Z",
+    "generated_at": "2026-05-28T16:48:19.506098Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-05-27T16:44:39.911838Z"
+  "last_updated": "2026-05-28T16:48:19.506098Z"
 }
