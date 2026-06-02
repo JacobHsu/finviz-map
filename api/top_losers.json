@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "QCOM",
-        "change": "-7.33%"
+        "ticker": "NOW",
+        "change": "-7.07%"
       },
       {
-        "ticker": "CVNA",
-        "change": "-7.24%"
+        "ticker": "ACN",
+        "change": "-5.99%"
       },
       {
-        "ticker": "TXN",
-        "change": "-4.33%"
+        "ticker": "PLTR",
+        "change": "-4.57%"
       },
       {
-        "ticker": "TSLA",
-        "change": "-3.61%"
+        "ticker": "MSFT",
+        "change": "-3.80%"
       },
       {
-        "ticker": "META",
-        "change": "-3.28%"
+        "ticker": "BA",
+        "change": "-3.75%"
       },
       {
-        "ticker": "INTC",
-        "change": "-3.47%"
+        "ticker": "MA",
+        "change": "-2.80%"
       },
       {
-        "ticker": "LLY",
-        "change": "-2.73%"
+        "ticker": "CRWD",
+        "change": "-2.62%"
       },
       {
-        "ticker": "HD",
-        "change": "-2.78%"
+        "ticker": "GOOGL",
+        "change": "-2.44%"
       },
       {
-        "ticker": "AMGN",
-        "change": "-2.86%"
+        "ticker": "UBER",
+        "change": "-2.25%"
       },
       {
-        "ticker": "BMY",
-        "change": "-3.45%"
+        "ticker": "AMZN",
+        "change": "-1.89%"
       }
     ],
-    "generated_at": "2026-06-01T17:18:45.526161Z",
+    "generated_at": "2026-06-02T17:01:42.520629Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-06-01T17:18:45.526161Z"
+  "last_updated": "2026-06-02T17:01:42.520629Z"
 }
