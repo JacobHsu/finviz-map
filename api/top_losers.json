@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "AVGO",
-        "change": "-14.70%"
-      },
-      {
-        "ticker": "MU",
-        "change": "-6.53%"
-      },
-      {
-        "ticker": "ANET",
-        "change": "-5.60%"
-      },
-      {
-        "ticker": "AMD",
-        "change": "-4.05%"
-      },
-      {
-        "ticker": "QCOM",
-        "change": "-4.16%"
+        "ticker": "ABBV",
+        "change": "-2.30%"
       },
       {
         "ticker": "PANW",
-        "change": "-3.63%"
+        "change": "-1.73%"
       },
       {
-        "ticker": "MPWR",
-        "change": "-3.86%"
+        "ticker": "GOOGL",
+        "change": "-1.64%"
       },
       {
-        "ticker": "LRCX",
-        "change": "-2.76%"
+        "ticker": "CRWD",
+        "change": "-1.58%"
       },
       {
-        "ticker": "ADI",
-        "change": "-2.63%"
+        "ticker": "BA",
+        "change": "-1.52%"
       },
       {
-        "ticker": "TMUS",
-        "change": "-2.22%"
+        "ticker": "MSFT",
+        "change": "-1.43%"
+      },
+      {
+        "ticker": "MA",
+        "change": "-1.38%"
+      },
+      {
+        "ticker": "RTX",
+        "change": "-1.22%"
+      },
+      {
+        "ticker": "V",
+        "change": "-1.17%"
+      },
+      {
+        "ticker": "AMGN",
+        "change": "-1.16%"
       }
     ],
-    "generated_at": "2026-06-04T16:32:36.715667Z",
+    "generated_at": "2026-06-08T16:47:16.166094Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-06-04T16:32:36.715667Z"
+  "last_updated": "2026-06-08T16:47:16.166094Z"
 }
