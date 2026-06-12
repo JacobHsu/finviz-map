@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "GEV",
-        "change": "-6.33%"
-      },
-      {
-        "ticker": "WDC",
-        "change": "-5.66%"
-      },
-      {
-        "ticker": "CAT",
-        "change": "-5.87%"
-      },
-      {
-        "ticker": "HON",
-        "change": "-5.97%"
-      },
-      {
-        "ticker": "QCOM",
-        "change": "-6.39%"
-      },
-      {
-        "ticker": "AVGO",
-        "change": "-4.62%"
-      },
-      {
-        "ticker": "AMD",
-        "change": "-4.36%"
-      },
-      {
-        "ticker": "MU",
-        "change": "-3.83%"
-      },
-      {
-        "ticker": "STX",
-        "change": "-3.93%"
+        "ticker": "PLTR",
+        "change": "-2.06%"
       },
       {
         "ticker": "TSLA",
-        "change": "-3.07%"
+        "change": "-2.31%"
+      },
+      {
+        "ticker": "AMZN",
+        "change": "-1.96%"
+      },
+      {
+        "ticker": "NOW",
+        "change": "-1.77%"
+      },
+      {
+        "ticker": "INTU",
+        "change": "-1.98%"
+      },
+      {
+        "ticker": "LLY",
+        "change": "-1.22%"
+      },
+      {
+        "ticker": "AAPL",
+        "change": "-1.20%"
+      },
+      {
+        "ticker": "ORCL",
+        "change": "-1.15%"
+      },
+      {
+        "ticker": "NFLX",
+        "change": "-0.09%"
+      },
+      {
+        "ticker": "MSFT",
+        "change": "-0.58%"
       }
     ],
-    "generated_at": "2026-06-10T16:43:23.246972Z",
+    "generated_at": "2026-06-12T16:31:17.785817Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-06-10T16:43:23.246972Z"
+  "last_updated": "2026-06-12T16:31:17.785817Z"
 }
