@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "META",
-        "change": "-3.32%"
+        "ticker": "XOM",
+        "change": "-2.85%"
       },
       {
-        "ticker": "T",
-        "change": "-3.35%"
+        "ticker": "BMY",
+        "change": "-2.67%"
       },
       {
-        "ticker": "VZ",
-        "change": "-3.35%"
+        "ticker": "JNJ",
+        "change": "-2.69%"
       },
       {
-        "ticker": "APP",
-        "change": "-3.36%"
+        "ticker": "CVX",
+        "change": "-2.63%"
       },
       {
-        "ticker": "AMZN",
-        "change": "-2.08%"
+        "ticker": "ABBV",
+        "change": "-2.26%"
       },
       {
-        "ticker": "MSFT",
-        "change": "-2.10%"
+        "ticker": "RTX",
+        "change": "-3.73%"
       },
       {
-        "ticker": "UNP",
-        "change": "-2.27%"
+        "ticker": "IBM",
+        "change": "-5.29%"
       },
       {
-        "ticker": "TMUS",
-        "change": "-1.29%"
+        "ticker": "LMT",
+        "change": "-2.48%"
       },
       {
-        "ticker": "GOOGL",
-        "change": "-1.97%"
+        "ticker": "GILD",
+        "change": "-2.16%"
       },
       {
-        "ticker": "FTNT",
-        "change": "-1.93%"
+        "ticker": "PLTR",
+        "change": "-1.78%"
       }
     ],
-    "generated_at": "2026-06-17T16:43:30.685621Z",
+    "generated_at": "2026-06-18T16:43:16.265915Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-06-17T16:43:30.685621Z"
+  "last_updated": "2026-06-18T16:43:16.265915Z"
 }
