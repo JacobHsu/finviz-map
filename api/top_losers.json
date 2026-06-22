@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "IBM",
-        "change": "-5.05%"
+        "ticker": "NFLX",
+        "change": "-6.46%"
       },
       {
-        "ticker": "CVX",
-        "change": "-2.22%"
+        "ticker": "GOOGL",
+        "change": "-6.00%"
       },
       {
-        "ticker": "XOM",
-        "change": "-2.08%"
+        "ticker": "PLTR",
+        "change": "-5.91%"
       },
       {
-        "ticker": "JPM",
-        "change": "-2.47%"
+        "ticker": "AMZN",
+        "change": "-4.52%"
       },
       {
-        "ticker": "WFC",
-        "change": "-1.92%"
+        "ticker": "ORCL",
+        "change": "-4.68%"
       },
       {
-        "ticker": "T",
-        "change": "-1.92%"
+        "ticker": "META",
+        "change": "-2.67%"
       },
       {
-        "ticker": "RTX",
-        "change": "-1.89%"
+        "ticker": "MSFT",
+        "change": "-2.86%"
       },
       {
-        "ticker": "LMT",
-        "change": "-1.86%"
+        "ticker": "NOW",
+        "change": "-2.94%"
       },
       {
-        "ticker": "MCD",
-        "change": "-1.84%"
+        "ticker": "ADP",
+        "change": "-2.12%"
       },
       {
-        "ticker": "GILD",
-        "change": "-1.35%"
+        "ticker": "WDC",
+        "change": "-2.19%"
       }
     ],
-    "generated_at": "2026-06-19T16:23:32.527534Z",
+    "generated_at": "2026-06-22T17:12:01.612699Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-06-19T16:23:32.527534Z"
+  "last_updated": "2026-06-22T17:12:01.612699Z"
 }
