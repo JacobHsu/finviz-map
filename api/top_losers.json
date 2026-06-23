@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "NFLX",
-        "change": "-6.46%"
+        "ticker": "MU",
+        "change": "-10.36%"
       },
       {
-        "ticker": "GOOGL",
-        "change": "-6.00%"
+        "ticker": "SNDK",
+        "change": "-12.14%"
       },
       {
-        "ticker": "PLTR",
-        "change": "-5.91%"
+        "ticker": "LRCX",
+        "change": "-9.45%"
       },
       {
-        "ticker": "AMZN",
-        "change": "-4.52%"
+        "ticker": "KLAC",
+        "change": "-9.56%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-4.68%"
-      },
-      {
-        "ticker": "META",
-        "change": "-2.67%"
-      },
-      {
-        "ticker": "MSFT",
-        "change": "-2.86%"
-      },
-      {
-        "ticker": "NOW",
-        "change": "-2.94%"
-      },
-      {
-        "ticker": "ADP",
-        "change": "-2.12%"
+        "ticker": "TXN",
+        "change": "-8.21%"
       },
       {
         "ticker": "WDC",
-        "change": "-2.19%"
+        "change": "-8.44%"
+      },
+      {
+        "ticker": "ADI",
+        "change": "-7.83%"
+      },
+      {
+        "ticker": "NXPI",
+        "change": "-7.04%"
+      },
+      {
+        "ticker": "TSLA",
+        "change": "-5.17%"
+      },
+      {
+        "ticker": "AMD",
+        "change": "-4.95%"
       }
     ],
-    "generated_at": "2026-06-22T17:12:01.612699Z",
+    "generated_at": "2026-06-23T16:18:20.916480Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-06-22T17:12:01.612699Z"
+  "last_updated": "2026-06-23T16:18:20.916480Z"
 }
