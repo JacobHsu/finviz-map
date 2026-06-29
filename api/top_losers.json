@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "AAPL",
-        "change": "-5.19%"
+        "ticker": "T",
+        "change": "-4.91%"
       },
       {
-        "ticker": "PLTR",
-        "change": "-5.80%"
+        "ticker": "TMUS",
+        "change": "-4.69%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-3.34%"
+        "ticker": "SNDK",
+        "change": "-4.25%"
+      },
+      {
+        "ticker": "UNH",
+        "change": "-2.17%"
+      },
+      {
+        "ticker": "MU",
+        "change": "-2.06%"
+      },
+      {
+        "ticker": "PEP",
+        "change": "-2.15%"
+      },
+      {
+        "ticker": "LLY",
+        "change": "-2.08%"
+      },
+      {
+        "ticker": "CRM",
+        "change": "-1.26%"
+      },
+      {
+        "ticker": "MCD",
+        "change": "-1.24%"
       },
       {
         "ticker": "MSFT",
-        "change": "-2.92%"
-      },
-      {
-        "ticker": "AMZN",
-        "change": "-2.16%"
-      },
-      {
-        "ticker": "APP",
-        "change": "-5.05%"
-      },
-      {
-        "ticker": "NOW",
-        "change": "-3.27%"
-      },
-      {
-        "ticker": "GOOGL",
-        "change": "-1.27%"
-      },
-      {
-        "ticker": "META",
-        "change": "-1.61%"
-      },
-      {
-        "ticker": "NVDA",
-        "change": "-1.63%"
+        "change": "-1.19%"
       }
     ],
-    "generated_at": "2026-06-25T16:17:43.308282Z",
+    "generated_at": "2026-06-29T16:42:02.612941Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-06-25T16:17:43.308282Z"
+  "last_updated": "2026-06-29T16:42:02.612941Z"
 }
