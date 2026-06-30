@@ -4,48 +4,48 @@
     "top_losers": [
       {
         "ticker": "T",
-        "change": "-4.91%"
+        "change": "-4.29%"
       },
       {
         "ticker": "TMUS",
-        "change": "-4.69%"
+        "change": "-2.66%"
       },
       {
-        "ticker": "SNDK",
-        "change": "-4.25%"
+        "ticker": "UBER",
+        "change": "-2.67%"
       },
       {
-        "ticker": "UNH",
-        "change": "-2.17%"
+        "ticker": "VRTX",
+        "change": "-2.09%"
       },
       {
-        "ticker": "MU",
-        "change": "-2.06%"
-      },
-      {
-        "ticker": "PEP",
+        "ticker": "SYK",
         "change": "-2.15%"
       },
       {
-        "ticker": "LLY",
-        "change": "-2.08%"
+        "ticker": "ADBE",
+        "change": "-2.17%"
+      },
+      {
+        "ticker": "MO",
+        "change": "-1.66%"
+      },
+      {
+        "ticker": "WDC",
+        "change": "-1.76%"
       },
       {
         "ticker": "CRM",
-        "change": "-1.26%"
+        "change": "-1.84%"
       },
       {
-        "ticker": "MCD",
-        "change": "-1.24%"
-      },
-      {
-        "ticker": "MSFT",
-        "change": "-1.19%"
+        "ticker": "PANW",
+        "change": "-1.88%"
       }
     ],
-    "generated_at": "2026-06-29T16:42:02.612941Z",
+    "generated_at": "2026-06-30T16:18:02.922493Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-06-29T16:42:02.612941Z"
+  "last_updated": "2026-06-30T16:18:02.922493Z"
 }
