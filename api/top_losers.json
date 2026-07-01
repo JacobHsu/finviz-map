@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "T",
-        "change": "-4.29%"
+        "ticker": "KLAC",
+        "change": "-10.14%"
       },
       {
-        "ticker": "TMUS",
-        "change": "-2.66%"
+        "ticker": "SNDK",
+        "change": "-9.41%"
       },
       {
-        "ticker": "UBER",
-        "change": "-2.67%"
+        "ticker": "LRCX",
+        "change": "-9.09%"
       },
       {
-        "ticker": "VRTX",
-        "change": "-2.09%"
+        "ticker": "MU",
+        "change": "-8.87%"
       },
       {
-        "ticker": "SYK",
-        "change": "-2.15%"
+        "ticker": "AMAT",
+        "change": "-8.63%"
       },
       {
-        "ticker": "ADBE",
-        "change": "-2.17%"
+        "ticker": "INTC",
+        "change": "-7.40%"
       },
       {
-        "ticker": "MO",
-        "change": "-1.66%"
+        "ticker": "MRVL",
+        "change": "-7.01%"
       },
       {
-        "ticker": "WDC",
-        "change": "-1.76%"
+        "ticker": "WMT",
+        "change": "-4.84%"
       },
       {
-        "ticker": "CRM",
-        "change": "-1.84%"
+        "ticker": "CAT",
+        "change": "-4.52%"
       },
       {
-        "ticker": "PANW",
-        "change": "-1.88%"
+        "ticker": "STX",
+        "change": "-4.37%"
       }
     ],
-    "generated_at": "2026-06-30T16:18:02.922493Z",
+    "generated_at": "2026-07-01T16:18:16.587591Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-06-30T16:18:02.922493Z"
+  "last_updated": "2026-07-01T16:18:16.587591Z"
 }
