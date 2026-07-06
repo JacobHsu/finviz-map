@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
+        "ticker": "AMGN",
+        "change": "-2.41%"
+      },
+      {
+        "ticker": "MRK",
+        "change": "-2.19%"
+      },
+      {
+        "ticker": "GILD",
+        "change": "-2.15%"
+      },
+      {
+        "ticker": "UNH",
+        "change": "-2.00%"
+      },
+      {
+        "ticker": "HD",
+        "change": "-1.93%"
+      },
+      {
         "ticker": "KLAC",
-        "change": "-11.51%"
-      },
-      {
-        "ticker": "LRCX",
-        "change": "-10.19%"
-      },
-      {
-        "ticker": "WDC",
-        "change": "-9.92%"
-      },
-      {
-        "ticker": "MRVL",
-        "change": "-9.84%"
-      },
-      {
-        "ticker": "SNPS",
-        "change": "-9.32%"
-      },
-      {
-        "ticker": "DELL",
-        "change": "-7.27%"
-      },
-      {
-        "ticker": "TSLA",
-        "change": "-7.49%"
+        "change": "-1.81%"
       },
       {
         "ticker": "AMAT",
-        "change": "-7.35%"
+        "change": "-1.84%"
       },
       {
-        "ticker": "APP",
-        "change": "-6.66%"
+        "ticker": "ABBV",
+        "change": "-1.75%"
       },
       {
-        "ticker": "INTC",
-        "change": "-5.25%"
+        "ticker": "NFLX",
+        "change": "-1.74%"
+      },
+      {
+        "ticker": "V",
+        "change": "-1.50%"
       }
     ],
-    "generated_at": "2026-07-03T16:52:23.844703Z",
+    "generated_at": "2026-07-06T17:58:06.572303Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-07-03T16:52:23.844703Z"
+  "last_updated": "2026-07-06T17:58:06.572303Z"
 }
