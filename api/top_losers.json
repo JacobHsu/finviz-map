@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
+        "ticker": "NOW",
+        "change": "-8.62%"
+      },
+      {
+        "ticker": "COF",
+        "change": "-5.27%"
+      },
+      {
+        "ticker": "MRK",
+        "change": "-2.38%"
+      },
+      {
+        "ticker": "PANW",
+        "change": "-3.90%"
+      },
+      {
+        "ticker": "PLTR",
+        "change": "-3.90%"
+      },
+      {
         "ticker": "INTC",
-        "change": "-9.11%"
+        "change": "-3.19%"
       },
       {
-        "ticker": "GEV",
-        "change": "-8.59%"
+        "ticker": "AMZN",
+        "change": "-1.77%"
       },
       {
-        "ticker": "WDC",
-        "change": "-8.47%"
+        "ticker": "META",
+        "change": "-1.88%"
       },
       {
-        "ticker": "SNPS",
-        "change": "-7.86%"
+        "ticker": "MSFT",
+        "change": "-1.60%"
       },
       {
-        "ticker": "AMAT",
-        "change": "-7.08%"
-      },
-      {
-        "ticker": "LRCX",
-        "change": "-6.78%"
-      },
-      {
-        "ticker": "AMD",
-        "change": "-5.83%"
-      },
-      {
-        "ticker": "PH",
-        "change": "-5.46%"
-      },
-      {
-        "ticker": "MU",
-        "change": "-5.47%"
-      },
-      {
-        "ticker": "CAT",
-        "change": "-5.29%"
+        "ticker": "GOOGL",
+        "change": "-1.61%"
       }
     ],
-    "generated_at": "2026-07-07T17:32:12.427231Z",
+    "generated_at": "2026-07-08T16:57:18.005356Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-07-07T17:32:12.427231Z"
+  "last_updated": "2026-07-08T16:57:18.005356Z"
 }
