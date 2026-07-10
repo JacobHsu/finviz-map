@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "COST",
-        "change": "-4.15%"
+        "ticker": "SNPS",
+        "change": "-5.47%"
       },
       {
-        "ticker": "PLTR",
-        "change": "-3.71%"
-      },
-      {
-        "ticker": "XOM",
-        "change": "-2.43%"
-      },
-      {
-        "ticker": "IBM",
-        "change": "-2.70%"
-      },
-      {
-        "ticker": "PM",
-        "change": "-2.28%"
-      },
-      {
-        "ticker": "GOOGL",
-        "change": "-1.89%"
-      },
-      {
-        "ticker": "AMGN",
-        "change": "-1.47%"
+        "ticker": "FTNT",
+        "change": "-3.66%"
       },
       {
         "ticker": "NFLX",
-        "change": "-1.55%"
+        "change": "-3.35%"
       },
       {
-        "ticker": "WMT",
-        "change": "-1.08%"
+        "ticker": "PANW",
+        "change": "-3.33%"
       },
       {
-        "ticker": "ORCL",
-        "change": "-3.71%"
+        "ticker": "LLY",
+        "change": "-2.80%"
+      },
+      {
+        "ticker": "MRVL",
+        "change": "-2.46%"
+      },
+      {
+        "ticker": "INTC",
+        "change": "-2.70%"
+      },
+      {
+        "ticker": "UNH",
+        "change": "-1.79%"
+      },
+      {
+        "ticker": "ABBV",
+        "change": "-1.78%"
+      },
+      {
+        "ticker": "GILD",
+        "change": "-1.56%"
       }
     ],
-    "generated_at": "2026-07-09T17:30:02.774957Z",
+    "generated_at": "2026-07-10T17:16:24.258833Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-07-09T17:30:02.774957Z"
+  "last_updated": "2026-07-10T17:16:24.258833Z"
 }
