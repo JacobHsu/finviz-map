@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "IBM",
-        "change": "-24.88%"
+        "ticker": "SNPS",
+        "change": "-13.38%"
       },
       {
-        "ticker": "MRK",
-        "change": "-2.88%"
+        "ticker": "DLB",
+        "change": "-13.38%"
       },
       {
-        "ticker": "LLY",
-        "change": "-2.46%"
+        "ticker": "WDC",
+        "change": "-11.13%"
       },
       {
-        "ticker": "WFC",
-        "change": "-2.26%"
+        "ticker": "MU",
+        "change": "-9.43%"
       },
       {
-        "ticker": "CMCSA",
-        "change": "-1.77%"
+        "ticker": "ANET",
+        "change": "-7.68%"
       },
       {
-        "ticker": "CSCO",
-        "change": "-1.50%"
+        "ticker": "LRCX",
+        "change": "-6.84%"
       },
       {
-        "ticker": "JNJ",
-        "change": "-1.94%"
+        "ticker": "INTC",
+        "change": "-6.80%"
       },
       {
-        "ticker": "AAPL",
-        "change": "-1.13%"
+        "ticker": "AMAT",
+        "change": "-5.63%"
       },
       {
-        "ticker": "MSFT",
-        "change": "-1.01%"
+        "ticker": "AMD",
+        "change": "-5.90%"
       },
       {
-        "ticker": "UNH",
-        "change": "-0.87%"
+        "ticker": "KLAC",
+        "change": "-5.15%"
       }
     ],
-    "generated_at": "2026-07-14T16:43:14.472169Z",
+    "generated_at": "2026-07-15T16:50:44.356112Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-07-14T16:43:14.472169Z"
+  "last_updated": "2026-07-15T16:50:44.356112Z"
 }
