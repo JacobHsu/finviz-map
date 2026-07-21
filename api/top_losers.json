@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "SNPS",
-        "change": "-11.12%"
+        "ticker": "TMO",
+        "change": "-3.25%"
       },
       {
-        "ticker": "DELL",
-        "change": "-5.19%"
+        "ticker": "CRWD",
+        "change": "-3.46%"
       },
       {
-        "ticker": "TSLA",
-        "change": "-1.99%"
-      },
-      {
-        "ticker": "GE",
-        "change": "-2.00%"
-      },
-      {
-        "ticker": "ORCL",
-        "change": "-2.90%"
-      },
-      {
-        "ticker": "AAPL",
-        "change": "-2.75%"
-      },
-      {
-        "ticker": "MS",
-        "change": "-1.77%"
-      },
-      {
-        "ticker": "LRCX",
-        "change": "-1.21%"
-      },
-      {
-        "ticker": "KLAC",
-        "change": "-1.19%"
+        "ticker": "TMUS",
+        "change": "-2.46%"
       },
       {
         "ticker": "WMT",
-        "change": "-1.37%"
+        "change": "-2.02%"
+      },
+      {
+        "ticker": "PANW",
+        "change": "-2.53%"
+      },
+      {
+        "ticker": "NOW",
+        "change": "-2.62%"
+      },
+      {
+        "ticker": "GILD",
+        "change": "-2.67%"
+      },
+      {
+        "ticker": "MSFT",
+        "change": "-0.86%"
+      },
+      {
+        "ticker": "GOOGL",
+        "change": "-0.82%"
+      },
+      {
+        "ticker": "MA",
+        "change": "-0.91%"
       }
     ],
-    "generated_at": "2026-07-20T16:52:25.851165Z",
+    "generated_at": "2026-07-21T16:53:01.951690Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-07-20T16:52:25.851165Z"
+  "last_updated": "2026-07-21T16:53:01.951690Z"
 }
