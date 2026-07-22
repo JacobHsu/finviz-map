@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "TMO",
-        "change": "-3.25%"
+        "ticker": "GEV",
+        "change": "-7.40%"
       },
       {
-        "ticker": "CRWD",
-        "change": "-3.46%"
+        "ticker": "PLTR",
+        "change": "-5.19%"
       },
       {
-        "ticker": "TMUS",
-        "change": "-2.46%"
+        "ticker": "GLW",
+        "change": "-5.33%"
       },
       {
-        "ticker": "WMT",
-        "change": "-2.02%"
+        "ticker": "APP",
+        "change": "-3.86%"
       },
       {
-        "ticker": "PANW",
-        "change": "-2.53%"
+        "ticker": "CRM",
+        "change": "-3.62%"
       },
       {
-        "ticker": "NOW",
-        "change": "-2.62%"
-      },
-      {
-        "ticker": "GILD",
-        "change": "-2.67%"
+        "ticker": "META",
+        "change": "-2.21%"
       },
       {
         "ticker": "MSFT",
-        "change": "-0.86%"
+        "change": "-2.27%"
       },
       {
-        "ticker": "GOOGL",
-        "change": "-0.82%"
+        "ticker": "CRWD",
+        "change": "-1.96%"
       },
       {
-        "ticker": "MA",
-        "change": "-0.91%"
+        "ticker": "WFC",
+        "change": "-1.40%"
+      },
+      {
+        "ticker": "WMT",
+        "change": "-1.43%"
       }
     ],
-    "generated_at": "2026-07-21T16:53:01.951690Z",
+    "generated_at": "2026-07-22T16:55:05.396818Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-07-21T16:53:01.951690Z"
+  "last_updated": "2026-07-22T16:55:05.396818Z"
 }
