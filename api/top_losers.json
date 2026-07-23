@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "GEV",
-        "change": "-7.40%"
+        "ticker": "TSLA",
+        "change": "-13.97%"
       },
       {
-        "ticker": "PLTR",
-        "change": "-5.19%"
+        "ticker": "GOOGL",
+        "change": "-6.68%"
       },
       {
-        "ticker": "GLW",
-        "change": "-5.33%"
+        "ticker": "AMD",
+        "change": "-4.87%"
       },
       {
-        "ticker": "APP",
-        "change": "-3.86%"
+        "ticker": "AMZN",
+        "change": "-4.21%"
       },
       {
-        "ticker": "CRM",
-        "change": "-3.62%"
+        "ticker": "TXN",
+        "change": "-4.05%"
+      },
+      {
+        "ticker": "ORCL",
+        "change": "-3.90%"
       },
       {
         "ticker": "META",
-        "change": "-2.21%"
+        "change": "-3.37%"
       },
       {
-        "ticker": "MSFT",
-        "change": "-2.27%"
+        "ticker": "PANW",
+        "change": "-2.96%"
       },
       {
-        "ticker": "CRWD",
-        "change": "-1.96%"
+        "ticker": "APP",
+        "change": "-2.76%"
       },
       {
-        "ticker": "WFC",
-        "change": "-1.40%"
-      },
-      {
-        "ticker": "WMT",
-        "change": "-1.43%"
+        "ticker": "CMCSA",
+        "change": "-2.44%"
       }
     ],
-    "generated_at": "2026-07-22T16:55:05.396818Z",
+    "generated_at": "2026-07-23T16:57:20.221109Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-07-22T16:55:05.396818Z"
+  "last_updated": "2026-07-23T16:57:20.221109Z"
 }
