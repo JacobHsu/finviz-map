@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
-        "ticker": "SNDB",
-        "change": "-11.86%"
-      },
-      {
-        "ticker": "AMD",
-        "change": "-7.96%"
-      },
-      {
-        "ticker": "LRCX",
-        "change": "-7.55%"
-      },
-      {
-        "ticker": "KLAC",
-        "change": "-6.67%"
-      },
-      {
-        "ticker": "WDC",
-        "change": "-6.60%"
-      },
-      {
-        "ticker": "STX",
-        "change": "-5.79%"
+        "ticker": "SNDK",
+        "change": "-13.36%"
       },
       {
         "ticker": "MU",
-        "change": "-5.44%"
+        "change": "-8.17%"
       },
       {
-        "ticker": "NVDA",
-        "change": "-5.26%"
+        "ticker": "STX",
+        "change": "-7.67%"
+      },
+      {
+        "ticker": "LRCX",
+        "change": "-7.06%"
+      },
+      {
+        "ticker": "AMD",
+        "change": "-6.75%"
+      },
+      {
+        "ticker": "MRVL",
+        "change": "-5.62%"
+      },
+      {
+        "ticker": "PLTR",
+        "change": "-5.24%"
+      },
+      {
+        "ticker": "INTC",
+        "change": "-4.76%"
       },
       {
         "ticker": "AMAT",
-        "change": "-6.16%"
+        "change": "-7.23%"
       },
       {
-        "ticker": "DE",
-        "change": "-1.96%"
+        "ticker": "DELL",
+        "change": "-9.46%"
       }
     ],
-    "generated_at": "2026-07-27T17:16:32.907094Z",
+    "generated_at": "2026-07-28T16:57:01.769970Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-07-27T17:16:32.907094Z"
+  "last_updated": "2026-07-28T16:57:01.769970Z"
 }
