@@ -3,49 +3,49 @@
   "data": {
     "top_losers": [
       {
+        "ticker": "KLAC",
+        "change": "-9.88%"
+      },
+      {
         "ticker": "SNDK",
-        "change": "-13.36%"
-      },
-      {
-        "ticker": "MU",
-        "change": "-8.17%"
-      },
-      {
-        "ticker": "STX",
-        "change": "-7.67%"
-      },
-      {
-        "ticker": "LRCX",
-        "change": "-7.06%"
-      },
-      {
-        "ticker": "AMD",
-        "change": "-6.75%"
-      },
-      {
-        "ticker": "MRVL",
-        "change": "-5.62%"
-      },
-      {
-        "ticker": "PLTR",
-        "change": "-5.24%"
-      },
-      {
-        "ticker": "INTC",
-        "change": "-4.76%"
+        "change": "-7.17%"
       },
       {
         "ticker": "AMAT",
-        "change": "-7.23%"
+        "change": "-7.02%"
       },
       {
-        "ticker": "DELL",
-        "change": "-9.46%"
+        "ticker": "MRVL",
+        "change": "-6.57%"
+      },
+      {
+        "ticker": "LRCX",
+        "change": "-6.54%"
+      },
+      {
+        "ticker": "MU",
+        "change": "-6.30%"
+      },
+      {
+        "ticker": "AMD",
+        "change": "-5.99%"
+      },
+      {
+        "ticker": "ON",
+        "change": "-5.16%"
+      },
+      {
+        "ticker": "GS",
+        "change": "-4.57%"
+      },
+      {
+        "ticker": "INTC",
+        "change": "-4.39%"
       }
     ],
-    "generated_at": "2026-07-28T16:57:01.769970Z",
+    "generated_at": "2026-07-29T16:47:53.350995Z",
     "source": "finviz"
   },
   "version": "1.0",
-  "last_updated": "2026-07-28T16:57:01.769970Z"
+  "last_updated": "2026-07-29T16:47:53.350995Z"
 }
